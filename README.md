@@ -1,4 +1,4 @@
-# Liver Cancer Assistant Model 
+# LiverCancerAssistant Deep Learning Model 
 
 ### Usage
 
