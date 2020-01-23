@@ -1,0 +1,140 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>test module &#8212; 2d-imaging  documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/contentui.css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="_static/contentui.js"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="dataset package" href="dataset.html" />
+    <link rel="prev" title="train module" href="train.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="dataset.html" title="dataset package"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="train.html" title="train module"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">2d-imaging  documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-test">
+<span id="test-module"></span><h1>test module<a class="headerlink" href="#module-test" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="test.load_multi_model">
+<code class="descclassname">test.</code><code class="descname">load_multi_model</code><span class="sig-paren">(</span><em>multi_args</em>, <em>model_args</em>, <em>data_args</em>, <em>gpu_ids</em><span class="sig-paren">)</span><a class="headerlink" href="#test.load_multi_model" title="Permalink to this definition">¶</a></dt>
+<dd><p>Load multi lodel (a frontal model and a lateral model).</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="test.test">
+<code class="descclassname">test.</code><code class="descname">test</code><span class="sig-paren">(</span><em>args</em><span class="sig-paren">)</span><a class="headerlink" href="#test.test" title="Permalink to this definition">¶</a></dt>
+<dd><p>Run testing with the given args.</p>
+<dl class="docutils">
+<dt>The function consists of the following steps:</dt>
+<dd><ol class="first last arabic simple">
+<li>Get model for evaluation.</li>
+<li>Get task sequence and class weights.</li>
+<li>Get data eval loaders and evaluator.</li>
+<li>Evaluate and save model performance (metrics and curves).</li>
+</ol>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="test.write_results">
+<code class="descclassname">test.</code><code class="descname">write_results</code><span class="sig-paren">(</span><em>dataset_name</em>, <em>split</em>, <em>eval_metrics</em>, <em>metrics</em>, <em>output_path</em>, <em>name</em>, <em>ckpt_info</em><span class="sig-paren">)</span><a class="headerlink" href="#test.write_results" title="Permalink to this definition">¶</a></dt>
+<dd><p>Write model performance to a CSV file.</p>
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="train.html"
+                        title="previous chapter">train module</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="dataset.html"
+                        title="next chapter">dataset package</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/test.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="dataset.html" title="dataset package"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="train.html" title="train module"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">2d-imaging  documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Stanford Machine Learning Group.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.1.
+    </div>
+  </body>
+</html>

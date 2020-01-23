@@ -1,0 +1,215 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>models.layers package &#8212; 2d-imaging  documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/contentui.css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="_static/contentui.js"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="models package" href="models.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="models.html" title="models package"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">2d-imaging  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="models.html" accesskey="U">models package</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="models-layers-package">
+<h1>models.layers package<a class="headerlink" href="#models-layers-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="models-layers-asp-pool-module">
+<h2>models.layers.asp_pool module<a class="headerlink" href="#models-layers-asp-pool-module" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-models.layers.se_block">
+<span id="models-layers-se-block-module"></span><h2>models.layers.se_block module<a class="headerlink" href="#module-models.layers.se_block" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="models.layers.se_block.SEBlock">
+<em class="property">class </em><code class="descclassname">models.layers.se_block.</code><code class="descname">SEBlock</code><span class="sig-paren">(</span><em>num_channels</em>, <em>reduction=16</em><span class="sig-paren">)</span><a class="headerlink" href="#models.layers.se_block.SEBlock" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">torch.nn.modules.module.Module</span></code></p>
+<p>Squeeze-and-Excitation Block.</p>
+<p>Based on the paper:
+“Squeeze-and-Excitation Networks”
+by Jie Hu, Li Shen, Gang Sun
+(<a class="reference external" href="https://arxiv.org/abs/1709.01507">https://arxiv.org/abs/1709.01507</a>).</p>
+<dl class="method">
+<dt id="models.layers.se_block.SEBlock.forward">
+<code class="descname">forward</code><span class="sig-paren">(</span><em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#models.layers.se_block.SEBlock.forward" title="Permalink to this definition">¶</a></dt>
+<dd><p>Defines the computation performed at every call.</p>
+<p>Should be overridden by all subclasses.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Although the recipe for forward pass needs to be defined within
+this function, one should call the <code class="xref py py-class docutils literal notranslate"><span class="pre">Module</span></code> instance afterwards
+instead of this since the former takes care of running the
+registered hooks while the latter silently ignores them.</p>
+</div>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-models.layers.xnet_bottleneck">
+<span id="models-layers-xnet-bottleneck-module"></span><h2>models.layers.xnet_bottleneck module<a class="headerlink" href="#module-models.layers.xnet_bottleneck" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="models.layers.xnet_bottleneck.XNetBottleneck">
+<em class="property">class </em><code class="descclassname">models.layers.xnet_bottleneck.</code><code class="descname">XNetBottleneck</code><span class="sig-paren">(</span><em>in_channels</em>, <em>channels</em>, <em>cardinality</em>, <em>survival_prob=1.0</em>, <em>stride=1</em>, <em>down_sample=None</em><span class="sig-paren">)</span><a class="headerlink" href="#models.layers.xnet_bottleneck.XNetBottleneck" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">torch.nn.modules.module.Module</span></code></p>
+<p>XNet bottleneck block, similar to a pre-activation ResNeXt bottleneck block.</p>
+<p>Based on the paper:
+“Aggregated Residual Transformations for Deep Nerual Networks”
+by Saining Xie, Ross Girshick, Piotr Dollár, Zhuowen Tu, Kaiming He
+(<a class="reference external" href="https://arxiv.org/abs/1611.05431">https://arxiv.org/abs/1611.05431</a>).</p>
+<dl class="attribute">
+<dt id="models.layers.xnet_bottleneck.XNetBottleneck.expansion">
+<code class="descname">expansion</code><em class="property"> = 2</em><a class="headerlink" href="#models.layers.xnet_bottleneck.XNetBottleneck.expansion" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="models.layers.xnet_bottleneck.XNetBottleneck.forward">
+<code class="descname">forward</code><span class="sig-paren">(</span><em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#models.layers.xnet_bottleneck.XNetBottleneck.forward" title="Permalink to this definition">¶</a></dt>
+<dd><p>Defines the computation performed at every call.</p>
+<p>Should be overridden by all subclasses.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Although the recipe for forward pass needs to be defined within
+this function, one should call the <code class="xref py py-class docutils literal notranslate"><span class="pre">Module</span></code> instance afterwards
+instead of this since the former takes care of running the
+registered hooks while the latter silently ignores them.</p>
+</div>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-models.layers.xnet_decoder">
+<span id="models-layers-xnet-decoder-module"></span><h2>models.layers.xnet_decoder module<a class="headerlink" href="#module-models.layers.xnet_decoder" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="models.layers.xnet_decoder.XNetDecoder">
+<em class="property">class </em><code class="descclassname">models.layers.xnet_decoder.</code><code class="descname">XNetDecoder</code><span class="sig-paren">(</span><em>in_channels</em>, <em>mid_channels</em>, <em>out_channels</em>, <em>kernel_size=4</em>, <em>stride=2</em><span class="sig-paren">)</span><a class="headerlink" href="#models.layers.xnet_decoder.XNetDecoder" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">torch.nn.modules.module.Module</span></code></p>
+<p>Decoder (up-sampling layer) for XNet</p>
+<dl class="method">
+<dt id="models.layers.xnet_decoder.XNetDecoder.forward">
+<code class="descname">forward</code><span class="sig-paren">(</span><em>x</em>, <em>x_skip=None</em><span class="sig-paren">)</span><a class="headerlink" href="#models.layers.xnet_decoder.XNetDecoder.forward" title="Permalink to this definition">¶</a></dt>
+<dd><p>Defines the computation performed at every call.</p>
+<p>Should be overridden by all subclasses.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Although the recipe for forward pass needs to be defined within
+this function, one should call the <code class="xref py py-class docutils literal notranslate"><span class="pre">Module</span></code> instance afterwards
+instead of this since the former takes care of running the
+registered hooks while the latter silently ignores them.</p>
+</div>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="models-layers-xnet-encoder-module">
+<h2>models.layers.xnet_encoder module<a class="headerlink" href="#models-layers-xnet-encoder-module" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-contents">
+<h2>Module contents<a class="headerlink" href="#module-contents" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">models.layers package</a><ul>
+<li><a class="reference internal" href="#submodules">Submodules</a></li>
+<li><a class="reference internal" href="#models-layers-asp-pool-module">models.layers.asp_pool module</a></li>
+<li><a class="reference internal" href="#module-models.layers.se_block">models.layers.se_block module</a></li>
+<li><a class="reference internal" href="#module-models.layers.xnet_bottleneck">models.layers.xnet_bottleneck module</a></li>
+<li><a class="reference internal" href="#module-models.layers.xnet_decoder">models.layers.xnet_decoder module</a></li>
+<li><a class="reference internal" href="#models-layers-xnet-encoder-module">models.layers.xnet_encoder module</a></li>
+<li><a class="reference internal" href="#module-contents">Module contents</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="models.html"
+                        title="previous chapter">models package</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/models.layers.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="models.html" title="models package"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">2d-imaging  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="models.html" >models package</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Stanford Machine Learning Group.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.1.
+    </div>
+  </body>
+</html>

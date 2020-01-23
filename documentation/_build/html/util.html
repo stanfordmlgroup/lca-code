@@ -1,0 +1,784 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>util package &#8212; 2d-imaging  documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/contentui.css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="_static/contentui.js"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">2d-imaging  documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="util-package">
+<h1>util package<a class="headerlink" href="#util-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-util.ct_util">
+<span id="util-ct-util-module"></span><h2>util.ct_util module<a class="headerlink" href="#module-util.ct_util" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="util.ct_util.apply_window">
+<code class="descclassname">util.ct_util.</code><code class="descname">apply_window</code><span class="sig-paren">(</span><em>img</em>, <em>w_center</em>, <em>w_width</em>, <em>y_min=0.0</em>, <em>y_max=255.0</em>, <em>dtype=&lt;class 'numpy.uint8'&gt;</em><span class="sig-paren">)</span><a class="headerlink" href="#util.ct_util.apply_window" title="Permalink to this definition">¶</a></dt>
+<dd><p>Window a NumPy array of raw Hounsfield Units.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>img</strong> – Image to apply the window to. NumPy array of any shape.</li>
+<li><strong>w_center</strong> – Center of window.</li>
+<li><strong>w_width</strong> – Width of window.</li>
+<li><strong>y_min</strong> – Min value for output image.</li>
+<li><strong>y_max</strong> – Max value for output image</li>
+<li><strong>dtype</strong> – Data type for elements in output image ndarray.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">NumPy array of after windowing. Values in range [y_min, y_max].</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">img_np</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="util.ct_util.normalize_hu">
+<code class="descclassname">util.ct_util.</code><code class="descname">normalize_hu</code><span class="sig-paren">(</span><em>volume</em>, <em>min_val</em>, <em>max_val</em>, <em>avg_val</em><span class="sig-paren">)</span><a class="headerlink" href="#util.ct_util.normalize_hu" title="Permalink to this definition">¶</a></dt>
+<dd><p>Normalize an ndarray of Hounsfield Units to [-1, 1].</p>
+<p>Clips the values to [min, max] and scales into [0, 1],
+then subtracts the mean pixel (min, max, mean are defined in constants.py).</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>volume</strong> – NumPy ndarray to convert. Any shape.</li>
+<li><strong>min_val</strong> – Minimum HU value. All lower values get clipped here.</li>
+<li><strong>max_val</strong> – Maximum HU value. All higher values get clipped here.</li>
+<li><strong>avg_val</strong> – Average HU value of training set <em>after clipping and scaling to [0, 1]</em>.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">NumPy ndarray with normalized pixels in [-1, 1]. Same shape as input.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="util.ct_util.un_normalize_hu">
+<code class="descclassname">util.ct_util.</code><code class="descname">un_normalize_hu</code><span class="sig-paren">(</span><em>tensor</em>, <em>pixel_dict</em>, <em>dtype=&lt;class 'numpy.int16'&gt;</em><span class="sig-paren">)</span><a class="headerlink" href="#util.ct_util.un_normalize_hu" title="Permalink to this definition">¶</a></dt>
+<dd><p>Un-normalize a PyTorch Tensor seen by the model into a NumPy array of
+pixels fit for visualization. If using raw Hounsfield Units, window the input.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>tensor</strong> – Tensor with pixel values in range (-1, 1).
+If video, shape (batch_size, num_channels, num_frames, height, width).
+If image, shape (batch_size, num_channels, height, width).</li>
+<li><strong>pixel_dict</strong> – Dictionary containing min, max, avg of pixel data; window center, width.</li>
+<li><strong>dtype</strong> – Desired output data type for each entry the image array.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">Numpy ndarray with entries of type <cite>dtype</cite>.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">pixels_np</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="module-util.image_util">
+<span id="util-image-util-module"></span><h2>util.image_util module<a class="headerlink" href="#module-util.image_util" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="util.image_util.UnNormalize">
+<em class="property">class </em><code class="descclassname">util.image_util.</code><code class="descname">UnNormalize</code><span class="sig-paren">(</span><em>mean</em>, <em>std</em><span class="sig-paren">)</span><a class="headerlink" href="#util.image_util.UnNormalize" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="util.image_util.UnNormalize.__call__">
+<code class="descname">__call__</code><span class="sig-paren">(</span><em>tensor</em><span class="sig-paren">)</span><a class="headerlink" href="#util.image_util.UnNormalize.__call__" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>tensor</strong> (<em>Tensor</em>) – Tensor image of size (C, H, W) to be normalized.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">Normalized image.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Tensor</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="util.image_util.add_heat_map">
+<code class="descclassname">util.image_util.</code><code class="descname">add_heat_map</code><span class="sig-paren">(</span><em>original_image</em>, <em>intensities_np</em>, <em>alpha_img=0.33</em>, <em>color_map='magma'</em>, <em>normalize=True</em><span class="sig-paren">)</span><a class="headerlink" href="#util.image_util.add_heat_map" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add a CAM heat map as an overlay on a PNG image.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>original_image</strong> – Pixels to add the heat map on top of. Must be in range (0, 1).</li>
+<li><strong>intensities_np</strong> – Intensity values for the heat map. Must be in range (0, 1).</li>
+<li><strong>alpha_img</strong> – Weight for image when summing with heat map. Must be in range (0, 1).</li>
+<li><strong>color_map</strong> – Color map scheme to use with PyPlot.</li>
+<li><strong>normalize</strong> – If True, normalize the intensities to range exactly from 0 to 1.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">Original pixels with heat map overlaid.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="util.image_util.apply_window">
+<code class="descclassname">util.image_util.</code><code class="descname">apply_window</code><span class="sig-paren">(</span><em>img</em>, <em>w_center</em>, <em>w_width</em>, <em>y_min=0.0</em>, <em>y_max=255.0</em>, <em>dtype=&lt;class 'numpy.uint8'&gt;</em><span class="sig-paren">)</span><a class="headerlink" href="#util.image_util.apply_window" title="Permalink to this definition">¶</a></dt>
+<dd><p>Window a NumPy array of raw Hounsfield Units.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>img</strong> – Image to apply the window to. NumPy array of any shape.</li>
+<li><strong>w_center</strong> – Center of window.</li>
+<li><strong>w_width</strong> – Width of window.</li>
+<li><strong>y_min</strong> – Min value for output image.</li>
+<li><strong>y_max</strong> – Max value for output image</li>
+<li><strong>dtype</strong> – Data type for elements in output image ndarray.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">NumPy array of after windowing. Values in range [y_min, y_max].</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">img_np</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="util.image_util.concat_images">
+<code class="descclassname">util.image_util.</code><code class="descname">concat_images</code><span class="sig-paren">(</span><em>images</em>, <em>spacing=10</em><span class="sig-paren">)</span><a class="headerlink" href="#util.image_util.concat_images" title="Permalink to this definition">¶</a></dt>
+<dd><p>Concatenate a list of images to form a single row image.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>images</strong> – Iterable of numpy arrays, each holding an image.</li>
+<li><strong>have same height</strong><strong>, </strong><strong>num_channels</strong><strong>, </strong><strong>and have dtype np.uint8.</strong> (<em>Must</em>) – </li>
+<li><strong>spacing</strong> – Number of pixels between each image.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Returns: Numpy array. Result of concatenating the images in images into a single row.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="util.image_util.dcm_to_png">
+<code class="descclassname">util.image_util.</code><code class="descname">dcm_to_png</code><span class="sig-paren">(</span><em>dcm</em>, <em>w_center=None</em>, <em>w_width=None</em><span class="sig-paren">)</span><a class="headerlink" href="#util.image_util.dcm_to_png" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert a DICOM object to a windowed PNG-format Numpy array.
+Add the given shift to each pixel, clip to the given window, then
+scale pixels to range implied by dtype (e.g., [0, 255] for <cite>uint8</cite>).
+Return ndarray of type <cite>dtype</cite>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>dcm</strong> – DICOM object.</li>
+<li><strong>w_center</strong> – Window center for windowing conversion.</li>
+<li><strong>w_width</strong> – Window width for windowing conversion.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last"><a class="reference external" href="https://dicom.innolitics.com/ciods/ct-image/voi-lut/00281050">https://dicom.innolitics.com/ciods/ct-image/voi-lut/00281050</a></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="util.image_util.dcm_to_raw">
+<code class="descclassname">util.image_util.</code><code class="descname">dcm_to_raw</code><span class="sig-paren">(</span><em>dcm</em>, <em>dtype=&lt;class 'numpy.int16'&gt;</em><span class="sig-paren">)</span><a class="headerlink" href="#util.image_util.dcm_to_raw" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert a DICOM object to a Numpy array of raw Hounsfield Units.</p>
+<p>Scale by the RescaleSlope, then add the RescaleIntercept (both DICOM header fields).</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>dcm</strong> – DICOM object.</li>
+<li><strong>dtype</strong> – Type of elements in output array.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">ndarray of shape (height, width). Pixels are <cite>int16</cite> raw Hounsfield Units.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last"><a class="reference external" href="https://www.kaggle.com/gzuidhof/full-preprocessing-tutorial">https://www.kaggle.com/gzuidhof/full-preprocessing-tutorial</a></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="util.image_util.get_crop">
+<code class="descclassname">util.image_util.</code><code class="descname">get_crop</code><span class="sig-paren">(</span><em>bbox</em><span class="sig-paren">)</span><a class="headerlink" href="#util.image_util.get_crop" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get crop coordinates and side length given a bounding box.
+Force the crop to be square.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>bbox</strong> – x1, y1, x2, y2; coordinates for bounding box.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">x1, y1, side_length</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="util.image_util.get_min_bbox">
+<code class="descclassname">util.image_util.</code><code class="descname">get_min_bbox</code><span class="sig-paren">(</span><em>box_1</em>, <em>box_2</em><span class="sig-paren">)</span><a class="headerlink" href="#util.image_util.get_min_bbox" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the minimal bounding box around two boxes.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>box_1</strong> – First box of coordinates (x1, y1, x2, y2). May be None.</li>
+<li><strong>box_2</strong> – Second box of coordinates (x1, y1, x2, y2). May be None.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="util.image_util.get_skull_bbox">
+<code class="descclassname">util.image_util.</code><code class="descname">get_skull_bbox</code><span class="sig-paren">(</span><em>img</em><span class="sig-paren">)</span><a class="headerlink" href="#util.image_util.get_skull_bbox" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a minimal bounding box around the skull.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>img</strong> – Numpy array of uint8’s, after windowing.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">Coordinates of top-left, bottom-right corners
+for minimal bounding box around the skull.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">start_x, start_y, end_x, end_y</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="util.image_util.get_z_range">
+<code class="descclassname">util.image_util.</code><code class="descname">get_z_range</code><span class="sig-paren">(</span><em>mask</em><span class="sig-paren">)</span><a class="headerlink" href="#util.image_util.get_z_range" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the z-axis range for a mask.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>mask</strong> – NumPy with mask values, where 0 is treated as background.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">List with two elements, the min and max z-axis indices containing foreground.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">z_range</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="util.image_util.mask_to_bbox">
+<code class="descclassname">util.image_util.</code><code class="descname">mask_to_bbox</code><span class="sig-paren">(</span><em>mask</em><span class="sig-paren">)</span><a class="headerlink" href="#util.image_util.mask_to_bbox" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert a mask to bounding box coordinates.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>mask</strong> – NumPy ndarray of any type, where 0 or false is treated as background.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">Coordinates of corresponding bounding box.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">x1, y1, x2, y2</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="util.image_util.pad_to_shape">
+<code class="descclassname">util.image_util.</code><code class="descname">pad_to_shape</code><span class="sig-paren">(</span><em>array</em>, <em>output_shape</em>, <em>offsets</em>, <em>dtype=&lt;class 'numpy.float32'&gt;</em><span class="sig-paren">)</span><a class="headerlink" href="#util.image_util.pad_to_shape" title="Permalink to this definition">¶</a></dt>
+<dd><p>Pad an array with zeros to the desired output shape.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>array</strong> – Array to be padded.</li>
+<li><strong>output_shape</strong> – The desired shape for the output.</li>
+<li><strong>offsets</strong> – List of offsets (will be prepended with zeros
+if fewer dimensions than output_shape).</li>
+<li><strong>dtype</strong> – Data type for output array.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">array padded to the given <cite>output_shape</cite>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="util.image_util.resize">
+<code class="descclassname">util.image_util.</code><code class="descname">resize</code><span class="sig-paren">(</span><em>cam</em>, <em>input_img</em>, <em>interpolation='linear'</em><span class="sig-paren">)</span><a class="headerlink" href="#util.image_util.resize" title="Permalink to this definition">¶</a></dt>
+<dd><p>Resizes a volume using factorized bilinear interpolation</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="util.image_util.resize_slice_wise">
+<code class="descclassname">util.image_util.</code><code class="descname">resize_slice_wise</code><span class="sig-paren">(</span><em>volume</em>, <em>slice_shape</em>, <em>interpolation_method=3</em><span class="sig-paren">)</span><a class="headerlink" href="#util.image_util.resize_slice_wise" title="Permalink to this definition">¶</a></dt>
+<dd><p>Resize a volume slice-by-slice.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>volume</strong> – Volume to resize.</li>
+<li><strong>slice_shape</strong> – Shape for a single slice.</li>
+<li><strong>interpolation_method</strong> – Interpolation method to pass to <cite>cv2.resize</cite>.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">Volume after reshaping every slice.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="util.image_util.stack_videos">
+<code class="descclassname">util.image_util.</code><code class="descname">stack_videos</code><span class="sig-paren">(</span><em>img_list</em><span class="sig-paren">)</span><a class="headerlink" href="#util.image_util.stack_videos" title="Permalink to this definition">¶</a></dt>
+<dd><p>Stacks a sequence of image numpy arrays of shape (num_images x w x h x c) to display side-by-side.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="util.image_util.to_rgb">
+<code class="descclassname">util.image_util.</code><code class="descname">to_rgb</code><span class="sig-paren">(</span><em>img</em><span class="sig-paren">)</span><a class="headerlink" href="#util.image_util.to_rgb" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="util.image_util.un_normalize">
+<code class="descclassname">util.image_util.</code><code class="descname">un_normalize</code><span class="sig-paren">(</span><em>img_tensor</em>, <em>mean</em>, <em>std</em><span class="sig-paren">)</span><a class="headerlink" href="#util.image_util.un_normalize" title="Permalink to this definition">¶</a></dt>
+<dd><p>Un-normalize a PyTorch Tensor seen by the model into a NumPy array of
+pixels fit for visualization. If using raw Hounsfield Units, window the input.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>img_tensor</strong> – Normalized tensor using mean and std. Tensor with pixel values in range (-1, 1).</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">Numpy ndarray with values between 0 and 1.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">unnormalized_img</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="module-util.io_util">
+<span id="util-io-util-module"></span><h2>util.io_util module<a class="headerlink" href="#module-util.io_util" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="util.io_util.args_to_list">
+<code class="descclassname">util.io_util.</code><code class="descname">args_to_list</code><span class="sig-paren">(</span><em>csv</em>, <em>allow_empty</em>, <em>arg_type=&lt;class 'int'&gt;</em>, <em>allow_negative=True</em><span class="sig-paren">)</span><a class="headerlink" href="#util.io_util.args_to_list" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert comma-separated arguments to a list.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>csv</strong> – Comma-separated list of arguments as a string.</li>
+<li><strong>allow_empty</strong> – If True, allow the list to be empty. Otherwise return None instead of empty list.</li>
+<li><strong>arg_type</strong> – Argument type in the list.</li>
+<li><strong>allow_negative</strong> – If True, allow negative inputs.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">List of arguments, converted to <cite>arg_type</cite>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="util.io_util.print_err">
+<code class="descclassname">util.io_util.</code><code class="descname">print_err</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#util.io_util.print_err" title="Permalink to this definition">¶</a></dt>
+<dd><p>Print a message to stderr.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="util.io_util.str_to_bool">
+<code class="descclassname">util.io_util.</code><code class="descname">str_to_bool</code><span class="sig-paren">(</span><em>arg</em><span class="sig-paren">)</span><a class="headerlink" href="#util.io_util.str_to_bool" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert an argument string into its boolean value.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>arg</strong> – String representing a bool.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">Boolean value for the string.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="module-util.label_util">
+<span id="util-label-util-module"></span><h2>util.label_util module<a class="headerlink" href="#module-util.label_util" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="util.label_util.get_study_id">
+<code class="descclassname">util.label_util.</code><code class="descname">get_study_id</code><span class="sig-paren">(</span><em>path</em><span class="sig-paren">)</span><a class="headerlink" href="#util.label_util.get_study_id" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a unique study ID from a (study or image) path.</p>
+<dl class="docutils">
+<dt>For example:</dt>
+<dd>/deep/group/xray4all/images/valid/patient64542/study1 -&gt; valid/patient64542/study1</dd>
+</dl>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>path</strong> (<em>str</em>) – Path to convert to study_id.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="module-util.optim_util">
+<span id="util-optim-util-module"></span><h2>util.optim_util module<a class="headerlink" href="#module-util.optim_util" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="util.optim_util.get_optimizer">
+<code class="descclassname">util.optim_util.</code><code class="descname">get_optimizer</code><span class="sig-paren">(</span><em>parameters</em>, <em>optim_args</em><span class="sig-paren">)</span><a class="headerlink" href="#util.optim_util.get_optimizer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a PyTorch optimizer for params.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>parameters</strong> – Iterator of network parameters to optimize (i.e., model.parameters()).</li>
+<li><strong>optim_args</strong> – Command line arguments.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">PyTorch optimizer specified by <a href="#id1"><span class="problematic" id="id2">args_</span></a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="util.optim_util.get_scheduler">
+<code class="descclassname">util.optim_util.</code><code class="descname">get_scheduler</code><span class="sig-paren">(</span><em>optimizer</em>, <em>optim_args</em><span class="sig-paren">)</span><a class="headerlink" href="#util.optim_util.get_scheduler" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a learning rate scheduler.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>optimizer</strong> – The optimizer whose learning rate is modified by the returned scheduler.</li>
+<li><strong>args</strong> – Command line arguments.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">PyTorch scheduler that update the learning rate for <cite>optimizer</cite>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="util.optim_util.step_scheduler">
+<code class="descclassname">util.optim_util.</code><code class="descname">step_scheduler</code><span class="sig-paren">(</span><em>lr_scheduler</em>, <em>metrics</em>, <em>lr_step</em>, <em>best_ckpt_metric='stanford-valid_loss'</em><span class="sig-paren">)</span><a class="headerlink" href="#util.optim_util.step_scheduler" title="Permalink to this definition">¶</a></dt>
+<dd><p>Step a LR scheduler.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>lr_scheduler</strong> – Scheduler to step.</li>
+<li><strong>metrics</strong> – Dictionary of metrics.</li>
+<li><strong>lr_step</strong> – Number of times step_scheduler has been called.</li>
+<li><strong>best_ckpt_metric</strong> – Name of metric to use to determine the best checkpoint.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="module-util.patch_util">
+<span id="util-patch-util-module"></span><h2>util.patch_util module<a class="headerlink" href="#module-util.patch_util" title="Permalink to this headline">¶</a></h2>
+<p>Helper functions to process patches from WSI images</p>
+<dl class="function">
+<dt id="util.patch_util.add_heat_map">
+<code class="descclassname">util.patch_util.</code><code class="descname">add_heat_map</code><span class="sig-paren">(</span><em>pixels_np</em>, <em>intensities_np</em>, <em>alpha_img=0.33</em>, <em>color_map='magma'</em>, <em>normalize=True</em><span class="sig-paren">)</span><a class="headerlink" href="#util.patch_util.add_heat_map" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add a CAM heat map as an overlay on a PNG image.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>pixels_np</strong> – Pixels to add the heat map on top of. Must be in range (0, 1).</li>
+<li><strong>intensities_np</strong> – Intensity values for the heat map. Must be in range (0, 1).</li>
+<li><strong>alpha_img</strong> – Weight for image when summing with heat map. Must be in range (0, 1).</li>
+<li><strong>color_map</strong> – Color map scheme to use with PyPlot.</li>
+<li><strong>normalize</strong> – If True, normalize the intensities to range exactly from 0 to 1.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">Original pixels with heat map overlaid.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="util.patch_util.create_whole_slide_image_from_patches_flat_list">
+<code class="descclassname">util.patch_util.</code><code class="descname">create_whole_slide_image_from_patches_flat_list</code><span class="sig-paren">(</span><em>patches</em>, <em>num_patches_in_row</em>, <em>num_patches_in_col</em>, <em>tumor_patch_indices=[]</em>, <em>stride=16</em><span class="sig-paren">)</span><a class="headerlink" href="#util.patch_util.create_whole_slide_image_from_patches_flat_list" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="util.patch_util.create_whole_slide_image_from_slide_name_and_meta">
+<code class="descclassname">util.patch_util.</code><code class="descname">create_whole_slide_image_from_slide_name_and_meta</code><span class="sig-paren">(</span><em>hdf5_fh</em>, <em>slide_name</em>, <em>slide_meta</em><span class="sig-paren">)</span><a class="headerlink" href="#util.patch_util.create_whole_slide_image_from_slide_name_and_meta" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="util.patch_util.get_patch_indices_that_contain_tumor">
+<code class="descclassname">util.patch_util.</code><code class="descname">get_patch_indices_that_contain_tumor</code><span class="sig-paren">(</span><em>patches</em><span class="sig-paren">)</span><a class="headerlink" href="#util.patch_util.get_patch_indices_that_contain_tumor" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="util.patch_util.get_patches_as_flat_list_from_slide">
+<code class="descclassname">util.patch_util.</code><code class="descname">get_patches_as_flat_list_from_slide</code><span class="sig-paren">(</span><em>hdf5_fh</em>, <em>slide_name</em>, <em>chunk_size=16</em>, <em>image_resolution=16</em><span class="sig-paren">)</span><a class="headerlink" href="#util.patch_util.get_patches_as_flat_list_from_slide" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="util.patch_util.get_plot">
+<code class="descclassname">util.patch_util.</code><code class="descname">get_plot</code><span class="sig-paren">(</span><em>title</em>, <em>curve</em><span class="sig-paren">)</span><a class="headerlink" href="#util.patch_util.get_plot" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a NumPy array for the given curve.
+:param title: Name of curve.
+:param curve: NumPy array of x and y coordinates.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">NumPy array to be used as a PNG image.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="util.patch_util.get_tumor_patch_indices_from_slide">
+<code class="descclassname">util.patch_util.</code><code class="descname">get_tumor_patch_indices_from_slide</code><span class="sig-paren">(</span><em>hdf5_fh</em>, <em>slide_name</em>, <em>verbose=False</em><span class="sig-paren">)</span><a class="headerlink" href="#util.patch_util.get_tumor_patch_indices_from_slide" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="util.patch_util.is_patch_tumor">
+<code class="descclassname">util.patch_util.</code><code class="descname">is_patch_tumor</code><span class="sig-paren">(</span><em>patch</em><span class="sig-paren">)</span><a class="headerlink" href="#util.patch_util.is_patch_tumor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Uses Hue and Saturation to select tumour patches</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="util.patch_util.normalize">
+<code class="descclassname">util.patch_util.</code><code class="descname">normalize</code><span class="sig-paren">(</span><em>pixels</em>, <em>pixel_dict</em><span class="sig-paren">)</span><a class="headerlink" href="#util.patch_util.normalize" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="util.patch_util.un_normalize">
+<code class="descclassname">util.patch_util.</code><code class="descname">un_normalize</code><span class="sig-paren">(</span><em>tensor</em>, <em>pixel_dict</em><span class="sig-paren">)</span><a class="headerlink" href="#util.patch_util.un_normalize" title="Permalink to this definition">¶</a></dt>
+<dd><p>Un-normalize a PyTorch Tensor seen by the model into a NumPy array of
+pixels fit for visualization.
+:param tensor: Tensor with pixel values in range (-1, 1).</p>
+<blockquote>
+<div>If image, shape (batch_size, num_channels, height, width).</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>pixel_dict</strong> – Dictionary containing min, max, avg (array with 3 elements in mean
+of pixel data; window center, width.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">Numpy ndarray with entries of type <cite>uint8</cite>.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">pixels</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="module-util.torch_util">
+<span id="util-torch-util-module"></span><h2>util.torch_util module<a class="headerlink" href="#module-util.torch_util" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="util.torch_util.uncertain_logits_to_probs">
+<code class="descclassname">util.torch_util.</code><code class="descname">uncertain_logits_to_probs</code><span class="sig-paren">(</span><em>logits</em><span class="sig-paren">)</span><a class="headerlink" href="#util.torch_util.uncertain_logits_to_probs" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert explicit uncertainty modeling logits to probabilities P(is_abnormal).</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>logits</strong> – Input of shape (batch_size, num_tasks * 3).</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><dl class="docutils">
+<dt>Output of shape (batch_size, num_tasks).</dt>
+<dd>Position (i, j) interpreted as P(example i has pathology j).</dd>
+</dl>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">probs</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="module-util">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-util" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">util package</a><ul>
+<li><a class="reference internal" href="#submodules">Submodules</a></li>
+<li><a class="reference internal" href="#module-util.ct_util">util.ct_util module</a></li>
+<li><a class="reference internal" href="#module-util.image_util">util.image_util module</a></li>
+<li><a class="reference internal" href="#module-util.io_util">util.io_util module</a></li>
+<li><a class="reference internal" href="#module-util.label_util">util.label_util module</a></li>
+<li><a class="reference internal" href="#module-util.optim_util">util.optim_util module</a></li>
+<li><a class="reference internal" href="#module-util.patch_util">util.patch_util module</a></li>
+<li><a class="reference internal" href="#module-util.torch_util">util.torch_util module</a></li>
+<li><a class="reference internal" href="#module-util">Module contents</a></li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/util.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">2d-imaging  documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Stanford Machine Learning Group.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.1.
+    </div>
+  </body>
+</html>

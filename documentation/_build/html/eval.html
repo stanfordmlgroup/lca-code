@@ -1,0 +1,277 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>eval package &#8212; 2d-imaging  documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/contentui.css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="_static/contentui.js"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">2d-imaging  documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="eval-package">
+<h1>eval package<a class="headerlink" href="#eval-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="subpackages">
+<h2>Subpackages<a class="headerlink" href="#subpackages" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="eval.loss.html">eval.loss package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="eval.loss.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="eval.loss.html#module-eval.loss.cross_entropy_with_uncertainty">eval.loss.cross_entropy_with_uncertainty module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="eval.loss.html#module-eval.loss.focal_loss">eval.loss.focal_loss module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="eval.loss.html#module-eval.loss.get_loss_fn">eval.loss.get_loss_fn module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="eval.loss.html#module-eval.loss">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-eval.average_meter">
+<span id="eval-average-meter-module"></span><h2>eval.average_meter module<a class="headerlink" href="#module-eval.average_meter" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="eval.average_meter.AverageMeter">
+<em class="property">class </em><code class="descclassname">eval.average_meter.</code><code class="descname">AverageMeter</code><a class="headerlink" href="#eval.average_meter.AverageMeter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Computes and stores the average and current value.</p>
+<dl class="docutils">
+<dt>Adapted from:</dt>
+<dd><a class="reference external" href="https://github.com/pytorch/examples/blob/master/imagenet/main.py">https://github.com/pytorch/examples/blob/master/imagenet/main.py</a></dd>
+</dl>
+<dl class="method">
+<dt id="eval.average_meter.AverageMeter.reset">
+<code class="descname">reset</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#eval.average_meter.AverageMeter.reset" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="eval.average_meter.AverageMeter.update">
+<code class="descname">update</code><span class="sig-paren">(</span><em>val</em>, <em>n=1</em><span class="sig-paren">)</span><a class="headerlink" href="#eval.average_meter.AverageMeter.update" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-eval.below_curve_counter">
+<span id="eval-below-curve-counter-module"></span><h2>eval.below_curve_counter module<a class="headerlink" href="#module-eval.below_curve_counter" title="Permalink to this headline">¶</a></h2>
+<p>RAD below curve counter</p>
+<dl class="class">
+<dt id="eval.below_curve_counter.BelowCurveCounter">
+<em class="property">class </em><code class="descclassname">eval.below_curve_counter.</code><code class="descname">BelowCurveCounter</code><span class="sig-paren">(</span><em>rad_perf</em>, <em>task_name</em><span class="sig-paren">)</span><a class="headerlink" href="#eval.below_curve_counter.BelowCurveCounter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="eval.below_curve_counter.BelowCurveCounter.PR">
+<code class="descname">PR</code><span class="sig-paren">(</span><em>ground_truth</em>, <em>predictions</em><span class="sig-paren">)</span><a class="headerlink" href="#eval.below_curve_counter.BelowCurveCounter.PR" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="eval.below_curve_counter.BelowCurveCounter.ROC">
+<code class="descname">ROC</code><span class="sig-paren">(</span><em>ground_truth</em>, <em>predictions</em><span class="sig-paren">)</span><a class="headerlink" href="#eval.below_curve_counter.BelowCurveCounter.ROC" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-eval.model_evaluator">
+<span id="eval-model-evaluator-module"></span><h2>eval.model_evaluator module<a class="headerlink" href="#module-eval.model_evaluator" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="eval.model_evaluator.ModelEvaluator">
+<em class="property">class </em><code class="descclassname">eval.model_evaluator.</code><code class="descname">ModelEvaluator</code><span class="sig-paren">(</span><em>data_loaders</em>, <em>logger</em>, <em>has_missing_tasks</em>, <em>model_uncertainty</em>, <em>class_weights=None</em>, <em>num_visuals=None</em>, <em>max_eval=None</em>, <em>iters_per_eval=1</em>, <em>device=None</em>, <em>rad_perf=None</em><span class="sig-paren">)</span><a class="headerlink" href="#eval.model_evaluator.ModelEvaluator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>data_loaders</strong> – List of Torch <a href="#id1"><span class="problematic" id="id2">`</span></a>DataLoader`s to sample from.</li>
+<li><strong>logger</strong> – Logger for plotting to console and TensorBoard.</li>
+<li><strong>num_visuals</strong> – Number of visuals to display from the validation set.</li>
+<li><strong>max_eval</strong> – Maximum number of examples to evaluate at each evaluation.</li>
+<li><strong>iters_per_eval</strong> – Number of iterations between each evaluation.</li>
+<li><strong>rad_perf</strong> – Dataframe of radiologist performance.</li>
+<li><strong>save_path</strong> – Path to save CSV file.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="eval.model_evaluator.ModelEvaluator.evaluate">
+<code class="descname">evaluate</code><span class="sig-paren">(</span><em>model</em>, <em>device</em>, <em>iter=None</em><span class="sig-paren">)</span><a class="headerlink" href="#eval.model_evaluator.ModelEvaluator.evaluate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Evaluate a model at the end of the given iteration.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>model</strong> – Model to evaluate.</li>
+<li><strong>device</strong> – Device on which to evaluate the model.</li>
+<li><strong>iter</strong> – The iteration that just finished. Determines whether to evaluate the model.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">Dictionary of metrics for the current model.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">metrics</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Notes</p>
+<p>Returned dictionary will be empty if not an evaluation iteration.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-eval.path_evaluator">
+<span id="eval-path-evaluator-module"></span><h2>eval.path_evaluator module<a class="headerlink" href="#module-eval.path_evaluator" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="eval.path_evaluator.PathEvaluator">
+<em class="property">class </em><code class="descclassname">eval.path_evaluator.</code><code class="descname">PathEvaluator</code><span class="sig-paren">(</span><em>data_loaders</em>, <em>logger</em>, <em>has_missing_tasks</em>, <em>model_uncertainty</em>, <em>class_weights=None</em>, <em>num_visuals=None</em>, <em>max_eval=None</em>, <em>iters_per_eval=1</em>, <em>device=None</em>, <em>rad_perf=None</em>, <em>calibrate=False</em>, <em>results_dir=None</em><span class="sig-paren">)</span><a class="headerlink" href="#eval.path_evaluator.PathEvaluator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>data_loaders</strong> – List of Torch <a href="#id3"><span class="problematic" id="id4">`</span></a>DataLoader`s to sample from.</li>
+<li><strong>logger</strong> – Logger for plotting to console and TensorBoard.</li>
+<li><strong>num_visuals</strong> – Number of visuals to display from the validation set.</li>
+<li><strong>max_eval</strong> – Maximum number of examples to evaluate at each evaluation.</li>
+<li><strong>iters_per_eval</strong> – Number of iterations between each evaluation.</li>
+<li><strong>rad_perf</strong> – Dataframe of radiologist performance.</li>
+<li><strong>save_path</strong> – Path to save CSV file.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="eval.path_evaluator.PathEvaluator.evaluate">
+<code class="descname">evaluate</code><span class="sig-paren">(</span><em>model</em>, <em>device</em>, <em>iter=None</em><span class="sig-paren">)</span><a class="headerlink" href="#eval.path_evaluator.PathEvaluator.evaluate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Evaluate a model at the end of the given iteration.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>model</strong> – Model to evaluate.</li>
+<li><strong>device</strong> – Device on which to evaluate the model.</li>
+<li><strong>iter</strong> – The iteration that just finished. Determines whether to evaluate the model.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">Dictionary of metrics for the current model.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">metrics</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Notes</p>
+<p>Returned dictionary will be empty if not an evaluation iteration.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-eval">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-eval" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">eval package</a><ul>
+<li><a class="reference internal" href="#subpackages">Subpackages</a></li>
+<li><a class="reference internal" href="#submodules">Submodules</a></li>
+<li><a class="reference internal" href="#module-eval.average_meter">eval.average_meter module</a></li>
+<li><a class="reference internal" href="#module-eval.below_curve_counter">eval.below_curve_counter module</a></li>
+<li><a class="reference internal" href="#module-eval.model_evaluator">eval.model_evaluator module</a></li>
+<li><a class="reference internal" href="#module-eval.path_evaluator">eval.path_evaluator module</a></li>
+<li><a class="reference internal" href="#module-eval">Module contents</a></li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/eval.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">2d-imaging  documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Stanford Machine Learning Group.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.1.
+    </div>
+  </body>
+</html>

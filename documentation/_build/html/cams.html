@@ -1,0 +1,197 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>cams package &#8212; 2d-imaging  documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/contentui.css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="_static/contentui.js"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">2d-imaging  documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="cams-package">
+<h1>cams package<a class="headerlink" href="#cams-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-cams.base_cam">
+<span id="cams-base-cam-module"></span><h2>cams.base_cam module<a class="headerlink" href="#module-cams.base_cam" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="cams.base_cam.BaseCAM">
+<em class="property">class </em><code class="descclassname">cams.base_cam.</code><code class="descname">BaseCAM</code><span class="sig-paren">(</span><em>model</em>, <em>device</em><span class="sig-paren">)</span><a class="headerlink" href="#cams.base_cam.BaseCAM" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Base class for generating CAMs.
+Adapted from: <a class="reference external" href="https://github.com/kazuto1011/grad-cam-pytorch">https://github.com/kazuto1011/grad-cam-pytorch</a></p>
+<dl class="method">
+<dt id="cams.base_cam.BaseCAM.backward">
+<code class="descname">backward</code><span class="sig-paren">(</span><em>idx</em><span class="sig-paren">)</span><a class="headerlink" href="#cams.base_cam.BaseCAM.backward" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="cams.base_cam.BaseCAM.forward">
+<code class="descname">forward</code><span class="sig-paren">(</span><em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#cams.base_cam.BaseCAM.forward" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="cams.base_cam.BaseCAM.get_cam">
+<code class="descname">get_cam</code><span class="sig-paren">(</span><em>x</em>, <em>task_id</em>, <em>task=None</em><span class="sig-paren">)</span><a class="headerlink" href="#cams.base_cam.BaseCAM.get_cam" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-cams.ensemble_cam">
+<span id="cams-ensemble-cam-module"></span><h2>cams.ensemble_cam module<a class="headerlink" href="#module-cams.ensemble_cam" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="cams.ensemble_cam.EnsembleCAM">
+<em class="property">class </em><code class="descclassname">cams.ensemble_cam.</code><code class="descname">EnsembleCAM</code><span class="sig-paren">(</span><em>model</em>, <em>device</em><span class="sig-paren">)</span><a class="headerlink" href="#cams.ensemble_cam.EnsembleCAM" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Class for generating CAMs using an ensemble.</p>
+<dl class="method">
+<dt id="cams.ensemble_cam.EnsembleCAM.get_cam">
+<code class="descname">get_cam</code><span class="sig-paren">(</span><em>x</em>, <em>task_id</em>, <em>task</em><span class="sig-paren">)</span><a class="headerlink" href="#cams.ensemble_cam.EnsembleCAM.get_cam" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-cams.grad_cam">
+<span id="cams-grad-cam-module"></span><h2>cams.grad_cam module<a class="headerlink" href="#module-cams.grad_cam" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="cams.grad_cam.GradCAM">
+<em class="property">class </em><code class="descclassname">cams.grad_cam.</code><code class="descname">GradCAM</code><span class="sig-paren">(</span><em>model</em>, <em>device</em><span class="sig-paren">)</span><a class="headerlink" href="#cams.grad_cam.GradCAM" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#cams.base_cam.BaseCAM" title="cams.base_cam.BaseCAM"><code class="xref py py-class docutils literal notranslate"><span class="pre">cams.base_cam.BaseCAM</span></code></a></p>
+<p>Class for generating grad CAMs.
+Adapted from: <a class="reference external" href="https://github.com/kazuto1011/grad-cam-pytorch">https://github.com/kazuto1011/grad-cam-pytorch</a></p>
+<dl class="method">
+<dt id="cams.grad_cam.GradCAM.extract_cam">
+<code class="descname">extract_cam</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#cams.grad_cam.GradCAM.extract_cam" title="Permalink to this definition">¶</a></dt>
+<dd><p>c: number of filters in final conv layer
+f: filter size
+shape of fmaps and grads : num_images x c x f x f
+shape of weights: num_images x c x 1 x 1
+shape of gcam: num_images x f x f</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="cams.grad_cam.GradCAM.get_cam">
+<code class="descname">get_cam</code><span class="sig-paren">(</span><em>x</em>, <em>task_id</em>, <em>task=None</em><span class="sig-paren">)</span><a class="headerlink" href="#cams.grad_cam.GradCAM.get_cam" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-cams.guided_backprop">
+<span id="cams-guided-backprop-module"></span><h2>cams.guided_backprop module<a class="headerlink" href="#module-cams.guided_backprop" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="cams.guided_backprop.GuidedBackPropagation">
+<em class="property">class </em><code class="descclassname">cams.guided_backprop.</code><code class="descname">GuidedBackPropagation</code><span class="sig-paren">(</span><em>model</em>, <em>device</em>, <em>is_binary</em>, <em>is_3d</em><span class="sig-paren">)</span><a class="headerlink" href="#cams.guided_backprop.GuidedBackPropagation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#cams.base_cam.BaseCAM" title="cams.base_cam.BaseCAM"><code class="xref py py-class docutils literal notranslate"><span class="pre">cams.base_cam.BaseCAM</span></code></a></p>
+<dl class="method">
+<dt id="cams.guided_backprop.GuidedBackPropagation.forward">
+<code class="descname">forward</code><span class="sig-paren">(</span><em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#cams.guided_backprop.GuidedBackPropagation.forward" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="cams.guided_backprop.GuidedBackPropagation.generate">
+<code class="descname">generate</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#cams.guided_backprop.GuidedBackPropagation.generate" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-cams">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-cams" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">cams package</a><ul>
+<li><a class="reference internal" href="#submodules">Submodules</a></li>
+<li><a class="reference internal" href="#module-cams.base_cam">cams.base_cam module</a></li>
+<li><a class="reference internal" href="#module-cams.ensemble_cam">cams.ensemble_cam module</a></li>
+<li><a class="reference internal" href="#module-cams.grad_cam">cams.grad_cam module</a></li>
+<li><a class="reference internal" href="#module-cams.guided_backprop">cams.guided_backprop module</a></li>
+<li><a class="reference internal" href="#module-cams">Module contents</a></li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/cams.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">2d-imaging  documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Stanford Machine Learning Group.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.1.
+    </div>
+  </body>
+</html>

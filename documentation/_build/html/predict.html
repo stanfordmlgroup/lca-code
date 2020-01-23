@@ -1,0 +1,169 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>predict module &#8212; 2d-imaging  documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/contentui.css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="_static/contentui.js"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">2d-imaging  documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-predict">
+<span id="predict-module"></span><h1>predict module<a class="headerlink" href="#module-predict" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="predict.combine_predictions">
+<code class="descclassname">predict.</code><code class="descname">combine_predictions</code><span class="sig-paren">(</span><em>args</em>, <em>task2models</em>, <em>task_sequence</em>, <em>aggregation_fn</em><span class="sig-paren">)</span><a class="headerlink" href="#predict.combine_predictions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Combine predictions of multiple models by reading CSVs from disk.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>args</strong> – Command-line arguments.</li>
+<li><strong>task2models</strong> – Dictionary mapping task names to models (loaded from JSON config file).</li>
+<li><strong>task_sequence</strong> – List of tasks to predict.</li>
+<li><strong>aggregation_fn</strong> – Aggregation method to use for combine multiple models’ predictions.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">Pandas DataFrame with combined probabilities that can be written to disk.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="predict.get_checkpoint_identifier">
+<code class="descclassname">predict.</code><code class="descname">get_checkpoint_identifier</code><span class="sig-paren">(</span><em>ckpt_path</em><span class="sig-paren">)</span><a class="headerlink" href="#predict.get_checkpoint_identifier" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a unique identifier for the checkpoint. Includes experiment name and iteration.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="predict.get_config">
+<code class="descclassname">predict.</code><code class="descname">get_config</code><span class="sig-paren">(</span><em>config_path</em><span class="sig-paren">)</span><a class="headerlink" href="#predict.get_config" title="Permalink to this definition">¶</a></dt>
+<dd><p>Read configuration from a JSON file.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>config_path</strong> – Path to configuration JSON file.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><dl class="docutils">
+<dt>Dictionary mapping task names to list of dicts.</dt>
+<dd>Each dict has keys ‘ckpt_path’ and ‘model_uncertainty’.</dd>
+</dl>
+<p>aggregation_fn: Aggregation function to combine predictions from multiple models.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">task2models</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="predict.predict">
+<code class="descclassname">predict.</code><code class="descname">predict</code><span class="sig-paren">(</span><em>args</em><span class="sig-paren">)</span><a class="headerlink" href="#predict.predict" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="predict.run_models">
+<code class="descclassname">predict.</code><code class="descname">run_models</code><span class="sig-paren">(</span><em>args</em>, <em>csv_cols</em>, <em>models</em>, <em>task_sequence</em><span class="sig-paren">)</span><a class="headerlink" href="#predict.run_models" title="Permalink to this definition">¶</a></dt>
+<dd><p>Run models and save predicted probabilities to disk.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>args</strong> – Command-line arguments.</li>
+<li><strong>csv_cols</strong> – List of column headers for the CSV files (should be ‘Path’ + all pathologies).</li>
+<li><strong>models</strong> – List of (ckpt_path, is_3class) tuples to use for the models.</li>
+<li><strong>task_sequence</strong> – List of tasks to predict for each model.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/predict.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">2d-imaging  documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Stanford Machine Learning Group.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.1.
+    </div>
+  </body>
+</html>

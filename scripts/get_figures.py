@@ -1,0 +1,5 @@
+print("(a) atelectasis", "results/U-Final-Sanity/test/visuals/cams/91")
+# print("(b) consolidation", "results/U-Final-Sanity/test/visuals/cams/20")
+print("(b) consolidation", "results/U-Final-Sanity/test/visuals/cams/76")
+print("(c) cardiomegaly", "results/U-Final-Sanity/test/visuals/cams/80")
+print("(d) multi-view bilateral effusion", "results/U-Final-Sanity/test/visuals/cams/146")

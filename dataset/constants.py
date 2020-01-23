@@ -1,0 +1,35 @@
+CXR_MEAN = [.5020, .5020, .5020]
+CXR_STD = [.085585, .085585, .085585]
+
+IMAGENET_MEAN = [0.485, 0.456, 0.406]
+IMAGENET_STD = [0.229, 0.224, 0.225]
+
+TCGA_MEAN = [0.6973565, 0.49583423, 0.63328904]
+TCGA_STD = [0.39652968124330656, 0.4175248803503049, 0.36731923775645803]
+
+
+COL_PATH = 'Path'
+COL_STUDY = 'Study'
+COL_SPLIT = 'DataSplit'
+COL_PATIENT = 'Patient'
+
+CFG_TASK2MODELS = 'task2models'
+CFG_AGG_METHOD = 'aggregation_method'
+CFG_CKPT_PATH = 'ckpt_path'
+CFG_IS_3CLASS = 'is_3class'
+
+COL_TCGA_SLIDE_ID = 'slide_id'
+COL_TCGA_FILE_ID = 'file_id'
+COL_TCGA_FILE_NAME = 'file_name'
+COL_TCGA_CASE_ID = 'case_id'
+COL_TCGA_LABEL = 'label'
+COL_TCGA_PATCH_ID = 'patch_num'
+COL_TCGA_NUM_PATCHES = 'num_patches'
+COL_TCGA_INDICES = 'indices'
+COL_TCGA_PATH = 'path_to_slide'
+COL_TCGA_ENTITIES = 'associated_entities'
+
+SLIDE_METADATA_FILE = 'slide_metadata.csv'
+SLIDE_PKL_FILE = 'slide_list.pkl'
+
+DEFAULT_PATCH_SIZE = 512

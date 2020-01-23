@@ -1,0 +1,324 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>app package &#8212; 2d-imaging  documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/contentui.css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="_static/contentui.js"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">2d-imaging  documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="app-package">
+<h1>app package<a class="headerlink" href="#app-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-app.data">
+<span id="app-data-module"></span><h2>app.data module<a class="headerlink" href="#module-app.data" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="app.data.UnNormalize">
+<em class="property">class </em><code class="descclassname">app.data.</code><code class="descname">UnNormalize</code><span class="sig-paren">(</span><em>mean</em>, <em>std</em>, <em>use_gpu=False</em><span class="sig-paren">)</span><a class="headerlink" href="#app.data.UnNormalize" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="app.data.UnNormalize.__call__">
+<code class="descname">__call__</code><span class="sig-paren">(</span><em>tensor</em><span class="sig-paren">)</span><a class="headerlink" href="#app.data.UnNormalize.__call__" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>tensor</strong> (<em>Tensor</em>) – Tensor image of size (C, H, W) to be normalized.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">Normalized image.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Tensor</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="app.data.add_heat_map">
+<code class="descclassname">app.data.</code><code class="descname">add_heat_map</code><span class="sig-paren">(</span><em>original_image</em>, <em>intensities_np</em>, <em>alpha_img=0.33</em>, <em>color_map='magma'</em>, <em>normalize=True</em><span class="sig-paren">)</span><a class="headerlink" href="#app.data.add_heat_map" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add a CAM heat map as an overlay on a PNG image.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>original_image</strong> – Pixels to add the heat map on top of. Must be in range (0, 1).</li>
+<li><strong>intensities_np</strong> – Intensity values for the heat map. Must be in range (0, 1).</li>
+<li><strong>alpha_img</strong> – Weight for image when summing with heat map. Must be in range (0, 1).</li>
+<li><strong>color_map</strong> – Color map scheme to use with PyPlot.</li>
+<li><strong>normalize</strong> – If True, normalize the intensities to range exactly from 0 to 1.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">Original pixels with heat map overlaid.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="app.data.load_img">
+<code class="descclassname">app.data.</code><code class="descname">load_img</code><span class="sig-paren">(</span><em>img_path</em><span class="sig-paren">)</span><a class="headerlink" href="#app.data.load_img" title="Permalink to this definition">¶</a></dt>
+<dd><p>Args
+img_path (str): path to the image to load</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="app.data.transform_img">
+<code class="descclassname">app.data.</code><code class="descname">transform_img</code><span class="sig-paren">(</span><em>img</em>, <em>use_gpu=False</em><span class="sig-paren">)</span><a class="headerlink" href="#app.data.transform_img" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="app.data.un_normalize">
+<code class="descclassname">app.data.</code><code class="descname">un_normalize</code><span class="sig-paren">(</span><em>img_tensor</em>, <em>use_gpu=False</em><span class="sig-paren">)</span><a class="headerlink" href="#app.data.un_normalize" title="Permalink to this definition">¶</a></dt>
+<dd><p>Un-normalize a PyTorch Tensor seen by the model into a NumPy array of
+pixels fit for visualization. If using raw Hounsfield Units, window the input.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>img_tensor</strong> – Normalized tensor using mean and std. Tensor with pixel values in range (-1, 1).</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">Numpy ndarray with values between 0 and 1.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">unnormalized_img</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="module-app.model">
+<span id="app-model-module"></span><h2>app.model module<a class="headerlink" href="#module-app.model" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="app.model.DenseNet121">
+<em class="property">class </em><code class="descclassname">app.model.</code><code class="descname">DenseNet121</code><span class="sig-paren">(</span><em>task_sequence</em>, <em>model_uncertainty</em>, <em>use_gpu</em><span class="sig-paren">)</span><a class="headerlink" href="#app.model.DenseNet121" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#app.model.Model" title="app.model.Model"><code class="xref py py-class docutils literal notranslate"><span class="pre">app.model.Model</span></code></a></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="app.model.Model">
+<em class="property">class </em><code class="descclassname">app.model.</code><code class="descname">Model</code><span class="sig-paren">(</span><em>model_fn</em>, <em>task_sequence</em>, <em>model_uncertainty</em>, <em>use_gpu</em><span class="sig-paren">)</span><a class="headerlink" href="#app.model.Model" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">torch.nn.modules.module.Module</span></code></p>
+<p>Models from TorchVision’s GitHub page of pretrained neural networks:
+<a class="reference external" href="https://github.com/pytorch/vision/tree/master/torchvision/models">https://github.com/pytorch/vision/tree/master/torchvision/models</a></p>
+<dl class="method">
+<dt id="app.model.Model.forward">
+<code class="descname">forward</code><span class="sig-paren">(</span><em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#app.model.Model.forward" title="Permalink to this definition">¶</a></dt>
+<dd><p>Defines the computation performed at every call.</p>
+<p>Should be overridden by all subclasses.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Although the recipe for forward pass needs to be defined within
+this function, one should call the <code class="xref py py-class docutils literal notranslate"><span class="pre">Module</span></code> instance afterwards
+instead of this since the former takes care of running the
+registered hooks while the latter silently ignores them.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="app.model.Model.infer">
+<code class="descname">infer</code><span class="sig-paren">(</span><em>x</em>, <em>tasks</em><span class="sig-paren">)</span><a class="headerlink" href="#app.model.Model.infer" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="app.model.Model.save_fmap">
+<code class="descname">save_fmap</code><span class="sig-paren">(</span><em>m</em>, <em>_</em>, <em>output</em><span class="sig-paren">)</span><a class="headerlink" href="#app.model.Model.save_fmap" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="app.model.Model.set_weights_attribute">
+<code class="descname">set_weights_attribute</code><span class="sig-paren">(</span><em>weights</em><span class="sig-paren">)</span><a class="headerlink" href="#app.model.Model.set_weights_attribute" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="app.model.Tasks2Models">
+<em class="property">class </em><code class="descclassname">app.model.</code><code class="descname">Tasks2Models</code><span class="sig-paren">(</span><em>config_path</em>, <em>num_models=1</em>, <em>dynamic=True</em>, <em>use_gpu=False</em><span class="sig-paren">)</span><a class="headerlink" href="#app.model.Tasks2Models" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Main attribute is a (task tuple) -&gt; {iterator, list} dictionary,
+which loads models iteratively depending on the
+specified task.</p>
+<dl class="method">
+<dt id="app.model.Tasks2Models.get_config">
+<code class="descname">get_config</code><span class="sig-paren">(</span><em>config_path</em><span class="sig-paren">)</span><a class="headerlink" href="#app.model.Tasks2Models.get_config" title="Permalink to this definition">¶</a></dt>
+<dd><p>Read configuration from a JSON file.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>config_path</strong> – Path to configuration JSON file.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><dl class="docutils">
+<dt>Dictionary mapping task names to list of dicts.</dt>
+<dd>Each dict has keys ‘ckpt_path’ and ‘model_uncertainty’.</dd>
+</dl>
+<p>aggregation_fn: Aggregation function to combine predictions from multiple models.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">task2models</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="app.model.Tasks2Models.get_hashable">
+<code class="descname">get_hashable</code><span class="sig-paren">(</span><em>model_dicts</em><span class="sig-paren">)</span><a class="headerlink" href="#app.model.Tasks2Models.get_hashable" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="app.model.Tasks2Models.infer">
+<code class="descname">infer</code><span class="sig-paren">(</span><em>img</em>, <em>tasks</em><span class="sig-paren">)</span><a class="headerlink" href="#app.model.Tasks2Models.infer" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="app.model.Tasks2Models.model_iterator">
+<code class="descname">model_iterator</code><span class="sig-paren">(</span><em>model_dicts</em>, <em>num_models</em><span class="sig-paren">)</span><a class="headerlink" href="#app.model.Tasks2Models.model_iterator" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="app.model.Tasks2Models.model_list">
+<code class="descname">model_list</code><span class="sig-paren">(</span><em>model_dicts</em>, <em>num_models</em><span class="sig-paren">)</span><a class="headerlink" href="#app.model.Tasks2Models.model_list" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="app.model.Tasks2Models.module">
+<code class="descname">module</code><a class="headerlink" href="#app.model.Tasks2Models.module" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="app.model.load_individual">
+<code class="descclassname">app.model.</code><code class="descname">load_individual</code><span class="sig-paren">(</span><em>ckpt_path</em>, <em>model_uncertainty</em>, <em>use_gpu=False</em><span class="sig-paren">)</span><a class="headerlink" href="#app.model.load_individual" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="app.model.uncertain_logits_to_probs">
+<code class="descclassname">app.model.</code><code class="descname">uncertain_logits_to_probs</code><span class="sig-paren">(</span><em>logits</em><span class="sig-paren">)</span><a class="headerlink" href="#app.model.uncertain_logits_to_probs" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert explicit uncertainty modeling logits to probabilities P(is_abnormal).</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>logits</strong> – Input of shape (batch_size, num_tasks * 3).</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><dl class="docutils">
+<dt>Output of shape (batch_size, num_tasks).</dt>
+<dd>Position (i, j) interpreted as P(example i has pathology j).</dd>
+</dl>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">probs</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="app-predict-module">
+<h2>app.predict module<a class="headerlink" href="#app-predict-module" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-app">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-app" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">app package</a><ul>
+<li><a class="reference internal" href="#submodules">Submodules</a></li>
+<li><a class="reference internal" href="#module-app.data">app.data module</a></li>
+<li><a class="reference internal" href="#module-app.model">app.model module</a></li>
+<li><a class="reference internal" href="#app-predict-module">app.predict module</a></li>
+<li><a class="reference internal" href="#module-app">Module contents</a></li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/app.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">2d-imaging  documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Stanford Machine Learning Group.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.1.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,461 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>models package &#8212; 2d-imaging  documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/contentui.css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="_static/contentui.js"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="models.layers package" href="models.layers.html" />
+    <link rel="prev" title="dataset.transforms package" href="dataset.transforms.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="models.layers.html" title="models.layers package"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="dataset.transforms.html" title="dataset.transforms package"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">2d-imaging  documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="models-package">
+<h1>models package<a class="headerlink" href="#models-package" title="Permalink to this headline">¶</a></h1>
+<div class="contents local topic" id="contents">
+<ul class="simple">
+<li><a class="reference internal" href="#subpackages" id="id1">Subpackages</a></li>
+<li><a class="reference internal" href="#submodules" id="id2">Submodules</a></li>
+<li><a class="reference internal" href="#module-models.csv_reader_model" id="id3">models.csv_reader_model module</a></li>
+<li><a class="reference internal" href="#module-models.ensemble_model" id="id4">models.ensemble_model module</a></li>
+<li><a class="reference internal" href="#module-models.hierarchy_wrapper" id="id5">models.hierarchy_wrapper module</a></li>
+<li><a class="reference internal" href="#module-models.models" id="id6">models.models module</a></li>
+<li><a class="reference internal" href="#module-models.multi_model_wrapper" id="id7">models.multi_model_wrapper module</a></li>
+<li><a class="reference internal" href="#module-models" id="id8">Module contents</a></li>
+</ul>
+</div>
+<div class="section" id="subpackages">
+<h2><a class="toc-backref" href="#id1">Subpackages</a><a class="headerlink" href="#subpackages" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="models.layers.html">models.layers package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="models.layers.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="models.layers.html#models-layers-asp-pool-module">models.layers.asp_pool module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="models.layers.html#module-models.layers.se_block">models.layers.se_block module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="models.layers.html#module-models.layers.xnet_bottleneck">models.layers.xnet_bottleneck module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="models.layers.html#module-models.layers.xnet_decoder">models.layers.xnet_decoder module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="models.layers.html#models-layers-xnet-encoder-module">models.layers.xnet_encoder module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="models.layers.html#module-contents">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="submodules">
+<h2><a class="toc-backref" href="#id2">Submodules</a><a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-models.csv_reader_model">
+<span id="models-csv-reader-model-module"></span><h2><a class="toc-backref" href="#id3">models.csv_reader_model module</a><a class="headerlink" href="#module-models.csv_reader_model" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="models.csv_reader_model.CSVReaderModel">
+<em class="property">class </em><code class="descclassname">models.csv_reader_model.</code><code class="descname">CSVReaderModel</code><span class="sig-paren">(</span><em>csv_path</em>, <em>task_sequence</em><span class="sig-paren">)</span><a class="headerlink" href="#models.csv_reader_model.CSVReaderModel" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Class that looks like a PyTorch model, but actually reads from a CSV file.</p>
+<dl class="method">
+<dt id="models.csv_reader_model.CSVReaderModel.eval">
+<code class="descname">eval</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#models.csv_reader_model.CSVReaderModel.eval" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="models.csv_reader_model.CSVReaderModel.forward">
+<code class="descname">forward</code><span class="sig-paren">(</span><em>study_paths</em><span class="sig-paren">)</span><a class="headerlink" href="#models.csv_reader_model.CSVReaderModel.forward" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="models.csv_reader_model.CSVReaderModel.module">
+<code class="descname">module</code><a class="headerlink" href="#models.csv_reader_model.CSVReaderModel.module" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="models.csv_reader_model.CSVReaderModel.to">
+<code class="descname">to</code><span class="sig-paren">(</span><em>device</em><span class="sig-paren">)</span><a class="headerlink" href="#models.csv_reader_model.CSVReaderModel.to" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="models.csv_reader_model.CSVReaderModel.train">
+<code class="descname">train</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#models.csv_reader_model.CSVReaderModel.train" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-models.ensemble_model">
+<span id="models-ensemble-model-module"></span><h2><a class="toc-backref" href="#id4">models.ensemble_model module</a><a class="headerlink" href="#module-models.ensemble_model" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="models.ensemble_model.EnsembleModel">
+<em class="property">class </em><code class="descclassname">models.ensemble_model.</code><code class="descname">EnsembleModel</code><span class="sig-paren">(</span><em>task2model_dicts</em>, <em>aggregation_fn</em>, <em>gpu_ids</em>, <em>model_args</em>, <em>data_args</em><span class="sig-paren">)</span><a class="headerlink" href="#models.ensemble_model.EnsembleModel" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Ensemble wrapper to be used for CAMs.
+This should be eventually be converted into a class which looks like a PyTorch model.</p>
+<dl class="method">
+<dt id="models.ensemble_model.EnsembleModel.eval">
+<code class="descname">eval</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#models.ensemble_model.EnsembleModel.eval" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="models.ensemble_model.EnsembleModel.forward">
+<code class="descname">forward</code><span class="sig-paren">(</span><em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#models.ensemble_model.EnsembleModel.forward" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="models.ensemble_model.EnsembleModel.loaded_model_iterator">
+<code class="descname">loaded_model_iterator</code><span class="sig-paren">(</span><em>task</em><span class="sig-paren">)</span><a class="headerlink" href="#models.ensemble_model.EnsembleModel.loaded_model_iterator" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="models.ensemble_model.EnsembleModel.module">
+<code class="descname">module</code><a class="headerlink" href="#models.ensemble_model.EnsembleModel.module" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="models.ensemble_model.EnsembleModel.to">
+<code class="descname">to</code><span class="sig-paren">(</span><em>device</em><span class="sig-paren">)</span><a class="headerlink" href="#models.ensemble_model.EnsembleModel.to" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="models.ensemble_model.EnsembleModel.train">
+<code class="descname">train</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#models.ensemble_model.EnsembleModel.train" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-models.hierarchy_wrapper">
+<span id="models-hierarchy-wrapper-module"></span><h2><a class="toc-backref" href="#id5">models.hierarchy_wrapper module</a><a class="headerlink" href="#module-models.hierarchy_wrapper" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="models.hierarchy_wrapper.HierarchyWrapper">
+<em class="property">class </em><code class="descclassname">models.hierarchy_wrapper.</code><code class="descname">HierarchyWrapper</code><span class="sig-paren">(</span><em>model</em>, <em>task_sequence</em><span class="sig-paren">)</span><a class="headerlink" href="#models.hierarchy_wrapper.HierarchyWrapper" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">torch.nn.modules.module.Module</span></code></p>
+<dl class="method">
+<dt id="models.hierarchy_wrapper.HierarchyWrapper.forward">
+<code class="descname">forward</code><span class="sig-paren">(</span><em>inputs</em><span class="sig-paren">)</span><a class="headerlink" href="#models.hierarchy_wrapper.HierarchyWrapper.forward" title="Permalink to this definition">¶</a></dt>
+<dd><p>Defines the computation performed at every call.</p>
+<p>Should be overridden by all subclasses.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Although the recipe for forward pass needs to be defined within
+this function, one should call the <code class="xref py py-class docutils literal notranslate"><span class="pre">Module</span></code> instance afterwards
+instead of this since the former takes care of running the
+registered hooks while the latter silently ignores them.</p>
+</div>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-models.models">
+<span id="models-models-module"></span><h2><a class="toc-backref" href="#id6">models.models module</a><a class="headerlink" href="#module-models.models" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="models.models.CadeneModel">
+<em class="property">class </em><code class="descclassname">models.models.</code><code class="descname">CadeneModel</code><span class="sig-paren">(</span><em>model_name</em>, <em>task_sequence</em>, <em>model_args</em><span class="sig-paren">)</span><a class="headerlink" href="#models.models.CadeneModel" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#models.models.PretrainedModel" title="models.models.PretrainedModel"><code class="xref py py-class docutils literal notranslate"><span class="pre">models.models.PretrainedModel</span></code></a></p>
+<p>Models from Cadene’s GitHub page of pretrained networks:
+<a class="reference external" href="https://github.com/Cadene/pretrained-models.pytorch">https://github.com/Cadene/pretrained-models.pytorch</a></p>
+<dl class="method">
+<dt id="models.models.CadeneModel.forward">
+<code class="descname">forward</code><span class="sig-paren">(</span><em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#models.models.CadeneModel.forward" title="Permalink to this definition">¶</a></dt>
+<dd><p>Defines the computation performed at every call.</p>
+<p>Should be overridden by all subclasses.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Although the recipe for forward pass needs to be defined within
+this function, one should call the <code class="xref py py-class docutils literal notranslate"><span class="pre">Module</span></code> instance afterwards
+instead of this since the former takes care of running the
+registered hooks while the latter silently ignores them.</p>
+</div>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="models.models.DenseNet121">
+<em class="property">class </em><code class="descclassname">models.models.</code><code class="descname">DenseNet121</code><span class="sig-paren">(</span><em>task_sequence</em>, <em>model_args</em><span class="sig-paren">)</span><a class="headerlink" href="#models.models.DenseNet121" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#models.models.TorchVisionModel" title="models.models.TorchVisionModel"><code class="xref py py-class docutils literal notranslate"><span class="pre">models.models.TorchVisionModel</span></code></a></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="models.models.DenseNet161">
+<em class="property">class </em><code class="descclassname">models.models.</code><code class="descname">DenseNet161</code><span class="sig-paren">(</span><em>task_sequence</em>, <em>model_args</em><span class="sig-paren">)</span><a class="headerlink" href="#models.models.DenseNet161" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#models.models.TorchVisionModel" title="models.models.TorchVisionModel"><code class="xref py py-class docutils literal notranslate"><span class="pre">models.models.TorchVisionModel</span></code></a></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="models.models.DenseNet201">
+<em class="property">class </em><code class="descclassname">models.models.</code><code class="descname">DenseNet201</code><span class="sig-paren">(</span><em>task_sequence</em>, <em>model_args</em><span class="sig-paren">)</span><a class="headerlink" href="#models.models.DenseNet201" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#models.models.TorchVisionModel" title="models.models.TorchVisionModel"><code class="xref py py-class docutils literal notranslate"><span class="pre">models.models.TorchVisionModel</span></code></a></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="models.models.Inceptionv3">
+<em class="property">class </em><code class="descclassname">models.models.</code><code class="descname">Inceptionv3</code><span class="sig-paren">(</span><em>task_sequence</em>, <em>model_args</em><span class="sig-paren">)</span><a class="headerlink" href="#models.models.Inceptionv3" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#models.models.TorchVisionModel" title="models.models.TorchVisionModel"><code class="xref py py-class docutils literal notranslate"><span class="pre">models.models.TorchVisionModel</span></code></a></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="models.models.Inceptionv4">
+<em class="property">class </em><code class="descclassname">models.models.</code><code class="descname">Inceptionv4</code><span class="sig-paren">(</span><em>task_sequence</em>, <em>model_args</em><span class="sig-paren">)</span><a class="headerlink" href="#models.models.Inceptionv4" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#models.models.CadeneModel" title="models.models.CadeneModel"><code class="xref py py-class docutils literal notranslate"><span class="pre">models.models.CadeneModel</span></code></a></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="models.models.MNASNet">
+<em class="property">class </em><code class="descclassname">models.models.</code><code class="descname">MNASNet</code><span class="sig-paren">(</span><em>task_sequence</em>, <em>model_args</em><span class="sig-paren">)</span><a class="headerlink" href="#models.models.MNASNet" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#models.models.CadeneModel" title="models.models.CadeneModel"><code class="xref py py-class docutils literal notranslate"><span class="pre">models.models.CadeneModel</span></code></a></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="models.models.NASNetA">
+<em class="property">class </em><code class="descclassname">models.models.</code><code class="descname">NASNetA</code><span class="sig-paren">(</span><em>task_sequence</em>, <em>model_args</em><span class="sig-paren">)</span><a class="headerlink" href="#models.models.NASNetA" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#models.models.CadeneModel" title="models.models.CadeneModel"><code class="xref py py-class docutils literal notranslate"><span class="pre">models.models.CadeneModel</span></code></a></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="models.models.PretrainedModel">
+<em class="property">class </em><code class="descclassname">models.models.</code><code class="descname">PretrainedModel</code><a class="headerlink" href="#models.models.PretrainedModel" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">torch.nn.modules.module.Module</span></code></p>
+<p>Pretrained model, either from Cadene or TorchVision.</p>
+<dl class="method">
+<dt id="models.models.PretrainedModel.fine_tuning_parameters">
+<code class="descname">fine_tuning_parameters</code><span class="sig-paren">(</span><em>boundary_layers</em>, <em>lrs</em><span class="sig-paren">)</span><a class="headerlink" href="#models.models.PretrainedModel.fine_tuning_parameters" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a list of parameter groups that can be passed to an optimizer.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>boundary_layers</strong> (<em>list</em>) – List of names for the boundary layers.</li>
+<li><strong>lrs</strong> (<em>list</em>) – List of learning rates for each parameter group, from earlier to later layers.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">List of dictionaries, one per parameter group.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">list</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="models.models.PretrainedModel.forward">
+<code class="descname">forward</code><span class="sig-paren">(</span><em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#models.models.PretrainedModel.forward" title="Permalink to this definition">¶</a></dt>
+<dd><p>Defines the computation performed at every call.</p>
+<p>Should be overridden by all subclasses.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Although the recipe for forward pass needs to be defined within
+this function, one should call the <code class="xref py py-class docutils literal notranslate"><span class="pre">Module</span></code> instance afterwards
+instead of this since the former takes care of running the
+registered hooks while the latter silently ignores them.</p>
+</div>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="models.models.ResNeXt101">
+<em class="property">class </em><code class="descclassname">models.models.</code><code class="descname">ResNeXt101</code><span class="sig-paren">(</span><em>task_sequence</em>, <em>model_args</em><span class="sig-paren">)</span><a class="headerlink" href="#models.models.ResNeXt101" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#models.models.CadeneModel" title="models.models.CadeneModel"><code class="xref py py-class docutils literal notranslate"><span class="pre">models.models.CadeneModel</span></code></a></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="models.models.ResNet101">
+<em class="property">class </em><code class="descclassname">models.models.</code><code class="descname">ResNet101</code><span class="sig-paren">(</span><em>task_sequence</em>, <em>model_args</em><span class="sig-paren">)</span><a class="headerlink" href="#models.models.ResNet101" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#models.models.TorchVisionModel" title="models.models.TorchVisionModel"><code class="xref py py-class docutils literal notranslate"><span class="pre">models.models.TorchVisionModel</span></code></a></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="models.models.ResNet152">
+<em class="property">class </em><code class="descclassname">models.models.</code><code class="descname">ResNet152</code><span class="sig-paren">(</span><em>task_sequence</em>, <em>model_args</em><span class="sig-paren">)</span><a class="headerlink" href="#models.models.ResNet152" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#models.models.TorchVisionModel" title="models.models.TorchVisionModel"><code class="xref py py-class docutils literal notranslate"><span class="pre">models.models.TorchVisionModel</span></code></a></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="models.models.ResNet18">
+<em class="property">class </em><code class="descclassname">models.models.</code><code class="descname">ResNet18</code><span class="sig-paren">(</span><em>task_sequence</em>, <em>model_args</em><span class="sig-paren">)</span><a class="headerlink" href="#models.models.ResNet18" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#models.models.CadeneModel" title="models.models.CadeneModel"><code class="xref py py-class docutils literal notranslate"><span class="pre">models.models.CadeneModel</span></code></a></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="models.models.ResNet34">
+<em class="property">class </em><code class="descclassname">models.models.</code><code class="descname">ResNet34</code><span class="sig-paren">(</span><em>task_sequence</em>, <em>model_args</em><span class="sig-paren">)</span><a class="headerlink" href="#models.models.ResNet34" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#models.models.CadeneModel" title="models.models.CadeneModel"><code class="xref py py-class docutils literal notranslate"><span class="pre">models.models.CadeneModel</span></code></a></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="models.models.SENet154">
+<em class="property">class </em><code class="descclassname">models.models.</code><code class="descname">SENet154</code><span class="sig-paren">(</span><em>task_sequence</em>, <em>model_args</em><span class="sig-paren">)</span><a class="headerlink" href="#models.models.SENet154" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#models.models.CadeneModel" title="models.models.CadeneModel"><code class="xref py py-class docutils literal notranslate"><span class="pre">models.models.CadeneModel</span></code></a></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="models.models.SEResNeXt101">
+<em class="property">class </em><code class="descclassname">models.models.</code><code class="descname">SEResNeXt101</code><span class="sig-paren">(</span><em>task_sequence</em>, <em>model_args</em><span class="sig-paren">)</span><a class="headerlink" href="#models.models.SEResNeXt101" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#models.models.CadeneModel" title="models.models.CadeneModel"><code class="xref py py-class docutils literal notranslate"><span class="pre">models.models.CadeneModel</span></code></a></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="models.models.TorchVisionModel">
+<em class="property">class </em><code class="descclassname">models.models.</code><code class="descname">TorchVisionModel</code><span class="sig-paren">(</span><em>model_fn</em>, <em>task_sequence</em>, <em>model_args</em><span class="sig-paren">)</span><a class="headerlink" href="#models.models.TorchVisionModel" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#models.models.PretrainedModel" title="models.models.PretrainedModel"><code class="xref py py-class docutils literal notranslate"><span class="pre">models.models.PretrainedModel</span></code></a></p>
+<p>Models from TorchVision’s GitHub page of pretrained neural networks:
+<a class="reference external" href="https://github.com/pytorch/vision/tree/master/torchvision/models">https://github.com/pytorch/vision/tree/master/torchvision/models</a></p>
+<dl class="method">
+<dt id="models.models.TorchVisionModel.forward">
+<code class="descname">forward</code><span class="sig-paren">(</span><em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#models.models.TorchVisionModel.forward" title="Permalink to this definition">¶</a></dt>
+<dd><p>Defines the computation performed at every call.</p>
+<p>Should be overridden by all subclasses.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Although the recipe for forward pass needs to be defined within
+this function, one should call the <code class="xref py py-class docutils literal notranslate"><span class="pre">Module</span></code> instance afterwards
+instead of this since the former takes care of running the
+registered hooks while the latter silently ignores them.</p>
+</div>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-models.multi_model_wrapper">
+<span id="models-multi-model-wrapper-module"></span><h2><a class="toc-backref" href="#id7">models.multi_model_wrapper module</a><a class="headerlink" href="#module-models.multi_model_wrapper" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="models.multi_model_wrapper.MultiModelWrapper">
+<em class="property">class </em><code class="descclassname">models.multi_model_wrapper.</code><code class="descname">MultiModelWrapper</code><span class="sig-paren">(</span><em>models_dict</em><span class="sig-paren">)</span><a class="headerlink" href="#models.multi_model_wrapper.MultiModelWrapper" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">torch.nn.modules.module.Module</span></code></p>
+<dl class="method">
+<dt id="models.multi_model_wrapper.MultiModelWrapper.forward">
+<code class="descname">forward</code><span class="sig-paren">(</span><em>studies</em><span class="sig-paren">)</span><a class="headerlink" href="#models.multi_model_wrapper.MultiModelWrapper.forward" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>inputs</strong> (<em>list</em>) – a list of studies.
+Each study is a list of tuples. E.g:
+[(‘AP’, torchimg), (‘lateral’, torchimg)]</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-models">
+<span id="module-contents"></span><h2><a class="toc-backref" href="#id8">Module contents</a><a class="headerlink" href="#module-models" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">models package</a><ul>
+<li><a class="reference internal" href="#subpackages">Subpackages</a></li>
+<li><a class="reference internal" href="#submodules">Submodules</a></li>
+<li><a class="reference internal" href="#module-models.csv_reader_model">models.csv_reader_model module</a></li>
+<li><a class="reference internal" href="#module-models.ensemble_model">models.ensemble_model module</a></li>
+<li><a class="reference internal" href="#module-models.hierarchy_wrapper">models.hierarchy_wrapper module</a></li>
+<li><a class="reference internal" href="#module-models.models">models.models module</a></li>
+<li><a class="reference internal" href="#module-models.multi_model_wrapper">models.multi_model_wrapper module</a></li>
+<li><a class="reference internal" href="#module-models">Module contents</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="dataset.transforms.html"
+                        title="previous chapter">dataset.transforms package</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="models.layers.html"
+                        title="next chapter">models.layers package</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/models.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="models.layers.html" title="models.layers package"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="dataset.transforms.html" title="dataset.transforms package"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">2d-imaging  documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Stanford Machine Learning Group.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.1.
+    </div>
+  </body>
+</html>
