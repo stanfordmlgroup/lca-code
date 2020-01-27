@@ -1,0 +1,938 @@
+participant,slide,CHOL,confidence,asst_pred,unasst_pred,gt,name,type
+P1Test1_11302019,slide0.1,0.510030217,0.489969783,,,,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide0.2,0.690330148,0.309669852,,,,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide0.3,0.472188532,0.527811468,,,,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide0.4,0.960322406,0.039677594,,,,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide1.1,0.784178287,0.215821713,0,1,0,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide1.10,0.942989916,0.057010084,0,0,0,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide1.2,0.997919956,0.002080044,1,1,1,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide1.3,0.043231785,0.956768215,1,1,0,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide1.4,0.057890296,0.942109704,1,1,1,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide1.5,0.06280911,0.93719089,1,1,1,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide1.6,0.696797023,0.303202977,0,1,0,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide1.7,0.961016644,0.038983356,1,1,1,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide1.8,0.186955869,0.813044131,1,1,1,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide1.9,2.29E-05,0.999977112,1,1,1,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide3.1,0.243164837,0.756835163,1,1,0,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide3.10,0.656119779,0.343880221,0,1,0,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide3.2,0.94210995,0.05789005,0,0,0,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide3.3,0.637444496,0.362555504,0,0,0,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide3.4,0.210665643,0.789334357,1,1,1,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide3.5,0.682734102,0.317265898,1,1,1,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide3.6,0.908474073,0.091525927,0,1,1,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide3.7,0.270857871,0.729142129,0,0,0,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide3.8,0.789529629,0.210470371,1,1,0,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide3.9,0.970129056,0.029870944,0,1,0,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide5.1,0.554347933,0.445652067,0,0,0,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide5.10,0.574100107,0.425899893,0,0,0,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide5.2,0.154572576,0.845427424,1,0,0,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide5.3,6.75E-05,0.999932528,1,1,1,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide5.4,0.000752687,0.999247313,1,1,1,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide5.5,0.175105751,0.824894249,1,1,1,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide5.6,0.006201565,0.993798435,1,1,1,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide5.7,0.980009599,0.019990401,0,0,0,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide5.8,0.45152857,0.54847143,1,1,1,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide5.9,0.013427973,0.986572027,1,1,1,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide7.1,0.227948666,0.772051334,1,1,0,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide7.10,0.062400401,0.937599599,1,1,0,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide7.2,0.0002895,0.9997105,1,1,1,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide7.3,0.817748114,0.182251886,0,0,0,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide7.4,0.415653457,0.584346543,1,1,1,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide7.5,0.044576287,0.955423713,1,1,1,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide7.6,0.687326872,0.312673128,0,0,0,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide7.7,0.84989585,0.15010415,0,1,1,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide7.8,0.192182124,0.807817876,1,0,0,"None-GI Specialist 2",General Pathologist
+P1Test1_11302019,slide7.9,0.217902601,0.782097399,1,1,0,"None-GI Specialist 2",General Pathologist
+P10Test2_02032019,slide0.1,0.205443084,0.794556916,,,,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide2.1,0.296407163,0.703592837,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide2.10,0.965571441,0.034428559,0,0,0,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide2.2,0.911425836,0.088574164,0,0,0,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide2.3,0.772270456,0.227729544,0,0,0,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide2.4,0.961527228,0.038472772,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide2.5,0.98128379,0.01871621,0,0,0,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide2.6,0.701413333,0.298586667,0,0,0,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide2.7,0.53537178,0.46462822,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide2.8,0.420455694,0.579544306,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide2.9,0.060705066,0.939294934,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide4.1,0.061943769,0.938056231,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide4.10,0.097343385,0.902656615,1,0,0,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide4.2,0.764141485,0.235858515,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide4.3,0.953724127,0.046275873,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide4.4,0.694794774,0.305205226,0,0,0,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide4.5,0.00154376,0.99845624,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide4.6,0.922114305,0.077885695,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide4.7,0.000549853,0.999450147,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide4.8,0.999915844,8.42E-05,0,0,0,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide4.9,0.985824709,0.014175291,0,0,0,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide6.1,0.039844573,0.960155427,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide6.10,0.844467402,0.155532598,0,0,1,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide6.2,0.005668521,0.994331479,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide6.3,0.006317377,0.993682623,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide6.4,0.089899838,0.910100162,0,0,0,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide6.5,0.030591607,0.969408393,1,1,0,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide6.6,0.155556083,0.844443917,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide6.7,0.605121404,0.394878596,0,0,0,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide6.8,0.783103645,0.216896355,0,0,0,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide6.9,0.962265499,0.037734501,0,0,0,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide8.1,0.993674931,0.006325069,0,1,0,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide8.10,0.008207381,0.991792619,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide8.2,0.902900323,0.097099677,0,0,0,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide8.3,0.996186852,0.003813148,0,0,0,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide8.4,0.271908104,0.728091896,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide8.5,0.005056083,0.994943917,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide8.6,0.256290197,0.743709803,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide8.7,0.858216211,0.141783789,0,0,0,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide8.8,0.999453982,0.000546018,0,0,0,"None-GI Specialist 1",General Pathologist
+P10Test2_02032019,slide8.9,0.131492436,0.868507564,1,1,1,"None-GI Specialist 1",General Pathologist
+P11Test1_02072019,slide0.1,0.630540699,0.369459301,,,,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide0.2,0.828899346,0.171100654,,,,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide0.3,0.554998487,0.445001513,,,,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide1.1,0.902878337,0.097121663,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide1.10,0.633121878,0.366878122,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide1.2,0.248891115,0.751108885,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide1.3,0.274466336,0.725533664,1,0,0,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide1.4,0.81405212,0.18594788,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide1.5,0.54479149,0.45520851,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide1.6,0.968553148,0.031446852,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide1.7,0.99983117,0.00016883,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide1.8,0.238091111,0.761908889,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide1.9,0.064949036,0.935050964,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide3.1,0.868986383,0.131013617,1,1,0,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide3.10,0.645197093,0.354802907,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide3.2,0.961133707,0.038866293,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide3.3,0.932582997,0.067417003,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide3.4,0.075579882,0.924420118,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide3.5,0.620108902,0.379891098,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide3.6,0.723255306,0.276744694,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide3.7,0.187884033,0.812115967,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide3.8,0.917978466,0.082021534,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide3.9,0.877567396,0.122432604,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide5.1,0.054969907,0.945030093,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide5.10,0.589578003,0.410421997,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide5.2,0.265347481,0.734652519,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide5.3,0.012210131,0.987789869,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide5.4,0.166993082,0.833006918,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide5.5,0.142681897,0.857318103,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide5.6,0.218447208,0.781552792,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide5.7,0.92288018,0.07711982,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide5.8,0.331277966,0.668722034,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide5.9,0.021397293,0.978602707,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide7.1,0.976420103,0.023579897,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide7.10,0.065537214,0.934462786,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide7.2,0.002757549,0.997242451,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide7.3,0.537141532,0.462858468,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide7.4,0.019940794,0.980059206,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide7.5,0.198519289,0.801480711,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide7.6,0.085512459,0.914487541,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide7.7,0.725639701,0.274360299,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide7.8,0.545563847,0.454436153,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test1_02072019,slide7.9,0.289099813,0.710900187,1,0,0,"None-GI Specialist 5",General Pathologist
+P2Test1_11302019,slide0.1,0.064760745,0.935239255,,,,"Trainee 3",Trainee
+P2Test1_11302019,slide0.2,0.68285052,0.31714948,,,,"Trainee 3",Trainee
+P2Test1_11302019,slide0.3,0.701649517,0.298350483,,,,"Trainee 3",Trainee
+P2Test1_11302019,slide0.4,0.95084203,0.04915797,,,,"Trainee 3",Trainee
+P2Test1_11302019,slide1.1,0.993918317,0.006081683,0,0,0,"Trainee 3",Trainee
+P2Test1_11302019,slide1.10,0.934495613,0.065504387,0,1,0,"Trainee 3",Trainee
+P2Test1_11302019,slide1.2,0.989459785,0.010540215,0,1,1,"Trainee 3",Trainee
+P2Test1_11302019,slide1.3,0.119084358,0.880915642,1,1,0,"Trainee 3",Trainee
+P2Test1_11302019,slide1.4,0.585422542,0.414577458,1,1,1,"Trainee 3",Trainee
+P2Test1_11302019,slide1.5,0.308760047,0.691239953,1,0,1,"Trainee 3",Trainee
+P2Test1_11302019,slide1.6,0.988727603,0.011272397,0,0,0,"Trainee 3",Trainee
+P2Test1_11302019,slide1.7,0.977601795,0.022398205,0,0,1,"Trainee 3",Trainee
+P2Test1_11302019,slide1.8,0.088758588,0.911241412,1,0,1,"Trainee 3",Trainee
+P2Test1_11302019,slide1.9,0.376693152,0.623306848,1,0,1,"Trainee 3",Trainee
+P2Test1_11302019,slide3.1,0.373221241,0.626778759,1,0,0,"Trainee 3",Trainee
+P2Test1_11302019,slide3.10,0.681878716,0.318121284,0,1,0,"Trainee 3",Trainee
+P2Test1_11302019,slide3.2,0.932032719,0.067967281,0,0,0,"Trainee 3",Trainee
+P2Test1_11302019,slide3.3,0.884148587,0.115851413,0,0,0,"Trainee 3",Trainee
+P2Test1_11302019,slide3.4,0.493837904,0.506162096,1,1,1,"Trainee 3",Trainee
+P2Test1_11302019,slide3.5,0.334137142,0.665862858,1,1,1,"Trainee 3",Trainee
+P2Test1_11302019,slide3.6,0.840700331,0.159299669,0,1,1,"Trainee 3",Trainee
+P2Test1_11302019,slide3.7,0.518039465,0.481960535,0,0,0,"Trainee 3",Trainee
+P2Test1_11302019,slide3.8,0.681244627,0.318755373,1,1,0,"Trainee 3",Trainee
+P2Test1_11302019,slide3.9,0.881344444,0.118655556,0,0,0,"Trainee 3",Trainee
+P2Test1_11302019,slide5.1,0.251487315,0.748512685,1,0,0,"Trainee 3",Trainee
+P2Test1_11302019,slide5.10,0.599684417,0.400315583,1,0,0,"Trainee 3",Trainee
+P2Test1_11302019,slide5.2,0.410463095,0.589536905,1,0,0,"Trainee 3",Trainee
+P2Test1_11302019,slide5.3,0.000569761,0.999430239,1,1,1,"Trainee 3",Trainee
+P2Test1_11302019,slide5.4,0.012537102,0.987462898,1,1,1,"Trainee 3",Trainee
+P2Test1_11302019,slide5.5,0.061843574,0.938156426,1,1,1,"Trainee 3",Trainee
+P2Test1_11302019,slide5.6,0.071304172,0.928695828,1,1,1,"Trainee 3",Trainee
+P2Test1_11302019,slide5.7,0.772952098,0.227047902,0,1,0,"Trainee 3",Trainee
+P2Test1_11302019,slide5.8,0.04854545,0.95145455,1,1,1,"Trainee 3",Trainee
+P2Test1_11302019,slide5.9,0.054040611,0.945959389,1,1,1,"Trainee 3",Trainee
+P2Test1_11302019,slide7.1,0.980210409,0.019789591,0,1,0,"Trainee 3",Trainee
+P2Test1_11302019,slide7.10,0.637906154,0.362093846,0,1,0,"Trainee 3",Trainee
+P2Test1_11302019,slide7.2,0.000562727,0.999437273,1,1,1,"Trainee 3",Trainee
+P2Test1_11302019,slide7.3,0.816140279,0.183859721,0,0,0,"Trainee 3",Trainee
+P2Test1_11302019,slide7.4,0.053558826,0.946441174,1,1,1,"Trainee 3",Trainee
+P2Test1_11302019,slide7.5,0.093179822,0.906820178,1,1,1,"Trainee 3",Trainee
+P2Test1_11302019,slide7.6,0.357477248,0.642522752,1,1,0,"Trainee 3",Trainee
+P2Test1_11302019,slide7.7,0.971163025,0.028836975,0,0,1,"Trainee 3",Trainee
+P2Test1_11302019,slide7.8,0.00485611,0.99514389,1,1,0,"Trainee 3",Trainee
+P2Test1_11302019,slide7.9,0.309646088,0.690353912,0,0,0,"Trainee 3",Trainee
+P3Test2_11312019,slide0.1,0.188566923,0.811433077,,,,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide0.2,0.986054719,0.013945281,,,,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide2.1,0.033207417,0.966792583,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide2.10,0.927537076,0.072462924,0,0,0,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide2.2,0.942981824,0.057018176,0,0,0,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide2.3,0.903956339,0.096043661,0,0,0,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide2.4,0.733840873,0.266159127,0,1,1,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide2.5,0.992241186,0.007758814,0,0,0,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide2.6,0.971927501,0.028072499,0,0,0,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide2.7,0.055862188,0.944137812,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide2.8,0.00188303,0.99811697,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide2.9,0.000968695,0.999031305,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide4.1,0.063735247,0.936264753,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide4.10,0.607615016,0.392384984,0,0,0,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide4.2,0.036853433,0.963146567,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide4.3,0.103636563,0.896363437,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide4.4,0.939035565,0.060964435,0,0,0,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide4.5,0.00319165,0.99680835,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide4.6,0.674686357,0.325313643,0,1,1,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide4.7,0.001072228,0.998927772,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide4.8,0.987616087,0.012383913,0,0,0,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide4.9,0.651710737,0.348289263,0,0,0,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide6.1,0.026399583,0.973600417,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide6.10,0.292410463,0.707589537,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide6.2,0.020469069,0.979530931,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide6.3,0.046734929,0.953265071,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide6.4,0.515909865,0.484090135,0,0,0,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide6.5,0.512795832,0.487204168,0,1,0,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide6.6,0.174208164,0.825791836,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide6.7,0.980467414,0.019532586,0,0,0,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide6.8,0.406970479,0.593029521,0,0,0,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide6.9,0.869643018,0.130356982,0,0,0,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide8.1,0.977965333,0.022034667,0,0,0,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide8.10,0.00789836,0.99210164,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide8.2,0.947216813,0.052783187,0,0,0,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide8.3,0.995386484,0.004613516,0,0,0,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide8.4,0.501177515,0.498822485,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide8.5,0.016341388,0.983658612,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide8.6,0.021224976,0.978775024,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide8.7,0.982039114,0.017960886,0,0,0,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide8.8,0.999058284,0.000941716,0,0,0,"None-GI Specialist 3",General Pathologist
+P3Test2_11312019,slide8.9,0.081072509,0.918927491,1,1,1,"None-GI Specialist 3",General Pathologist
+P4Test2_11312019,slide0.1,0.197562983,0.802437017,,,,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide0.3,0.852904439,0.147095561,,,,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide2.1,0.271234155,0.728765845,1,1,1,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide2.10,0.860830083,0.139169917,0,0,0,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide2.2,0.773930728,0.226069272,0,0,0,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide2.3,0.992855913,0.007144087,0,0,0,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide2.4,0.026936948,0.973063052,1,1,1,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide2.5,0.822448686,0.177551314,0,0,0,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide2.6,0.999172665,0.000827335,0,0,0,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide2.7,0.972979119,0.027020881,1,1,1,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide2.8,0.003660917,0.996339083,1,1,1,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide2.9,0.079994142,0.920005858,1,1,1,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide4.1,0.340298533,0.659701467,1,1,1,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide4.10,0.556737304,0.443262696,1,1,0,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide4.2,0.027822554,0.972177446,1,1,1,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide4.3,0.707180977,0.292819023,1,1,1,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide4.4,0.996687217,0.003312783,0,0,0,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide4.5,0.00146842,0.99853158,1,1,1,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide4.6,0.276150107,0.723849893,1,1,1,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide4.7,0.000645459,0.999354541,1,1,1,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide4.8,0.987753667,0.012246333,0,0,0,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide4.9,0.985897689,0.014102311,0,0,0,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide6.1,0.371773601,0.628226399,1,1,1,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide6.10,0.344432652,0.655567348,1,1,1,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide6.2,0.257885814,0.742114186,1,1,1,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide6.3,3.39E-05,0.999966145,1,1,1,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide6.4,0.853710443,0.146289557,0,0,0,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide6.5,0.060329556,0.939670444,1,1,0,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide6.6,0.040856242,0.959143758,1,1,1,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide6.7,0.987858316,0.012141684,0,0,0,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide6.8,0.752867296,0.247132704,0,0,0,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide6.9,0.760272339,0.239727661,0,0,0,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide8.1,0.896804653,0.103195347,0,0,0,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide8.10,0.000510931,0.999489069,1,1,1,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide8.2,0.999958872,4.11E-05,0,0,0,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide8.3,0.999961738,3.83E-05,0,0,0,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide8.4,0.063332796,0.936667204,1,1,1,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide8.5,0.545086622,0.454913378,1,1,1,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide8.6,0.072567344,0.927432656,1,1,1,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide8.7,0.992329906,0.007670094,0,0,0,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide8.8,0.988488189,0.011511811,0,0,0,"GI Specialist 3",GI Specialist
+P4Test2_11312019,slide8.9,0.001469016,0.998530984,1,1,1,"GI Specialist 3",GI Specialist
+P5Test1_02012019,slide0.1,0.025333226,0.974666774,,,,"Trainee 1",Trainee
+P5Test1_02012019,slide0.2,0.006688833,0.993311167,,,,"Trainee 1",Trainee
+P5Test1_02012019,slide0.3,0.004189849,0.995810151,,,,"Trainee 1",Trainee
+P5Test1_02012019,slide0.4,0.649459511,0.350540489,,,,"Trainee 1",Trainee
+P5Test1_02012019,slide1.1,0.909821227,0.090178773,0,1,0,"Trainee 1",Trainee
+P5Test1_02012019,slide1.10,0.913137989,0.086862011,0,0,0,"Trainee 1",Trainee
+P5Test1_02012019,slide1.2,0.585405479,0.414594521,1,1,1,"Trainee 1",Trainee
+P5Test1_02012019,slide1.3,0.98230141,0.01769859,0,0,0,"Trainee 1",Trainee
+P5Test1_02012019,slide1.4,0.005385101,0.994614899,1,1,1,"Trainee 1",Trainee
+P5Test1_02012019,slide1.5,0.258478135,0.741521865,1,1,1,"Trainee 1",Trainee
+P5Test1_02012019,slide1.6,0.927134939,0.072865061,0,0,0,"Trainee 1",Trainee
+P5Test1_02012019,slide1.7,0.959036238,0.040963762,0,1,1,"Trainee 1",Trainee
+P5Test1_02012019,slide1.8,0.167941709,0.832058291,1,1,1,"Trainee 1",Trainee
+P5Test1_02012019,slide1.9,0.004184246,0.995815754,1,1,1,"Trainee 1",Trainee
+P5Test1_02012019,slide3.1,0.68785728,0.31214272,0,0,0,"Trainee 1",Trainee
+P5Test1_02012019,slide3.10,0.51154229,0.48845771,0,0,0,"Trainee 1",Trainee
+P5Test1_02012019,slide3.2,0.911026948,0.088973052,0,0,0,"Trainee 1",Trainee
+P5Test1_02012019,slide3.3,0.903154589,0.096845411,0,0,0,"Trainee 1",Trainee
+P5Test1_02012019,slide3.4,0.51124834,0.48875166,1,1,1,"Trainee 1",Trainee
+P5Test1_02012019,slide3.5,0.324161425,0.675838575,1,1,1,"Trainee 1",Trainee
+P5Test1_02012019,slide3.6,0.624099806,0.375900194,1,1,1,"Trainee 1",Trainee
+P5Test1_02012019,slide3.7,0.438310035,0.561689965,0,0,0,"Trainee 1",Trainee
+P5Test1_02012019,slide3.8,0.658175955,0.341824045,0,0,0,"Trainee 1",Trainee
+P5Test1_02012019,slide3.9,0.461987138,0.538012862,0,0,0,"Trainee 1",Trainee
+P5Test1_02012019,slide5.1,0.976193633,0.023806367,0,0,0,"Trainee 1",Trainee
+P5Test1_02012019,slide5.10,0.989395265,0.010604735,0,0,0,"Trainee 1",Trainee
+P5Test1_02012019,slide5.2,0.253351053,0.746648947,0,0,0,"Trainee 1",Trainee
+P5Test1_02012019,slide5.3,0.001107514,0.998892486,1,1,1,"Trainee 1",Trainee
+P5Test1_02012019,slide5.4,0.000605583,0.999394417,1,1,1,"Trainee 1",Trainee
+P5Test1_02012019,slide5.5,0.212447166,0.787552834,1,1,1,"Trainee 1",Trainee
+P5Test1_02012019,slide5.6,0.783487692,0.216512308,0,1,1,"Trainee 1",Trainee
+P5Test1_02012019,slide5.7,0.940978285,0.059021715,0,0,0,"Trainee 1",Trainee
+P5Test1_02012019,slide5.8,0.022666812,0.977333188,1,1,1,"Trainee 1",Trainee
+P5Test1_02012019,slide5.9,0.14166677,0.85833323,1,1,1,"Trainee 1",Trainee
+P5Test1_02012019,slide7.1,0.603514589,0.396485411,1,0,0,"Trainee 1",Trainee
+P5Test1_02012019,slide7.10,0.263464451,0.736535549,1,0,0,"Trainee 1",Trainee
+P5Test1_02012019,slide7.2,0.000133753,0.999866247,1,1,1,"Trainee 1",Trainee
+P5Test1_02012019,slide7.3,0.560545594,0.439454406,0,0,0,"Trainee 1",Trainee
+P5Test1_02012019,slide7.4,0.027793825,0.972206175,1,1,1,"Trainee 1",Trainee
+P5Test1_02012019,slide7.5,0.009414613,0.990585387,1,1,1,"Trainee 1",Trainee
+P5Test1_02012019,slide7.6,0.987789745,0.012210255,0,0,0,"Trainee 1",Trainee
+P5Test1_02012019,slide7.7,0.997904429,0.002095571,0,1,1,"Trainee 1",Trainee
+P5Test1_02012019,slide7.8,0.210279703,0.789720297,0,0,0,"Trainee 1",Trainee
+P5Test1_02012019,slide7.9,0.23848331,0.76151669,1,1,0,"Trainee 1",Trainee
+P6Test1_02012019,slide0.1,0.014014125,0.985985875,,,,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide0.2,0.188699245,0.811300755,,,,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide0.3,0.830942949,0.169057051,,,,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide0.4,0.526555647,0.473444353,,,,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide1.1,0.832416629,0.167583371,0,0,0,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide1.10,0.832283599,0.167716401,0,0,0,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide1.2,0.961369793,0.038630207,0,1,1,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide1.3,0.187519252,0.812480748,0,0,0,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide1.4,0.044561247,0.955438753,1,1,1,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide1.5,0.157370647,0.842629353,1,1,1,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide1.6,0.745316892,0.254683108,0,0,0,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide1.7,0.999067606,0.000932394,0,1,1,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide1.8,0.320577552,0.679422448,0,1,1,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide1.9,0.000261168,0.999738832,1,1,1,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide3.1,0.388569911,0.611430089,1,1,0,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide3.10,0.444553415,0.555446585,0,0,0,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide3.2,0.940748195,0.059251805,0,0,0,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide3.3,0.648327038,0.351672962,0,0,0,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide3.4,0.482682625,0.517317375,0,1,1,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide3.5,0.557699359,0.442300641,1,1,1,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide3.6,0.528141548,0.471858452,1,1,1,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide3.7,0.730931704,0.269068296,0,0,0,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide3.8,0.836462701,0.163537299,0,0,0,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide3.9,0.766985094,0.233014906,0,0,0,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide5.1,0.556778322,0.443221678,0,0,0,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide5.10,0.370508552,0.629491448,0,0,0,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide5.2,0.158971568,0.841028432,0,0,0,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide5.3,0.006061912,0.993938088,1,1,1,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide5.4,0.031958699,0.968041301,1,1,1,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide5.5,0.23167489,0.76832511,0,1,1,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide5.6,0.276186407,0.723813593,1,1,1,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide5.7,0.980316192,0.019683808,0,0,0,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide5.8,0.418120588,0.581879412,0,1,1,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide5.9,0.051968257,0.948031743,1,1,1,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide7.1,0.918575857,0.081424143,0,1,0,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide7.10,0.41579179,0.58420821,0,0,0,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide7.2,0.078576684,0.921423316,0,1,1,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide7.3,0.816991352,0.183008648,0,0,0,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide7.4,0.370451212,0.629548788,0,0,1,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide7.5,0.370930259,0.629069741,1,1,1,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide7.6,0.497598827,0.502401173,0,0,0,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide7.7,0.998863958,0.001136042,0,0,1,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide7.8,0.392641743,0.607358257,0,0,0,"None-GI Specialist 4",General Pathologist
+P6Test1_02012019,slide7.9,0.81251067,0.18748933,0,0,0,"None-GI Specialist 4",General Pathologist
+P7Test1_02022019,slide0.1,0.038599253,0.961400747,,,,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide1.1,0.245038062,0.754961938,0,0,0,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide1.10,0.577539049,0.422460951,0,0,0,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide1.2,0.033979952,0.966020048,1,1,1,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide1.3,0.746235222,0.253764778,0,0,0,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide1.4,0.032043278,0.967956722,1,1,1,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide1.5,0.001790524,0.998209476,1,1,1,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide1.6,0.817780226,0.182219774,0,0,0,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide1.7,0.971188013,0.028811987,1,1,1,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide1.8,0.014167666,0.985832334,1,1,1,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide1.9,0.000125289,0.999874711,1,1,1,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide3.1,0.251284957,0.748715043,1,1,0,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide3.10,0.711628039,0.288371961,0,0,0,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide3.2,0.984394715,0.015605285,0,0,0,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide3.3,0.886097245,0.113902755,0,0,0,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide3.4,0.253837764,0.746162236,1,1,1,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide3.5,0.02252537,0.97747463,1,1,1,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide3.6,0.567875221,0.432124779,1,1,1,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide3.7,0.995165736,0.004834264,0,0,0,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide3.8,0.983776197,0.016223803,0,0,0,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide3.9,0.655074537,0.344925463,0,0,0,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide5.1,0.922753111,0.077246889,0,0,0,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide5.10,0.711251765,0.288748235,0,0,0,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide5.2,0.327036753,0.672963247,0,0,0,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide5.3,6.65E-05,0.999933481,1,1,1,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide5.4,0.163772464,0.836227536,1,1,1,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide5.5,0.313028216,0.686971784,1,1,1,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide5.6,0.044557095,0.955442905,1,1,1,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide5.7,0.974149691,0.025850309,0,0,0,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide5.8,0.245684564,0.754315436,1,1,1,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide5.9,0.00652498,0.99347502,1,1,1,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide7.1,0.589055457,0.410944543,0,0,0,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide7.10,0.047896862,0.952103138,1,1,0,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide7.2,0.001865685,0.998134315,1,1,1,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide7.3,0.995369744,0.004630256,0,0,0,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide7.4,0.291868389,0.708131611,1,1,1,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide7.5,0.145448089,0.854551911,1,1,1,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide7.6,0.852778971,0.147221029,0,0,0,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide7.7,0.347956657,0.652043343,1,1,1,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide7.8,0.977449862,0.022550138,0,0,0,"GI Specialist 2",GI Specialist
+P7Test1_02022019,slide7.9,0.711416721,0.288583279,0,0,0,"GI Specialist 2",GI Specialist
+P8Test2_02022019,slide2.1,7.15E-07,0.999999285,1,1,1,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide2.10,0.891307525,0.108692475,0,0,0,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide2.2,0.990832525,0.009167475,0,0,0,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide2.3,1,0,0,0,0,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide2.4,0.141067028,0.858932972,1,1,1,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide2.5,0.912311636,0.087688364,0,0,0,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide2.6,0.998403577,0.001596423,0,0,0,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide2.7,0.468907565,0.531092435,1,1,1,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide2.8,0.351708695,0.648291305,1,0,1,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide2.9,0.045782506,0.954217494,1,1,1,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide4.1,0.011221945,0.988778055,1,1,1,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide4.10,0.935502686,0.064497314,0,0,0,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide4.2,0.646808982,0.353191018,1,1,1,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide4.3,0.273972809,0.726027191,1,1,1,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide4.4,0.902109064,0.097890936,0,0,0,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide4.5,0.111609638,0.888390362,1,1,1,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide4.6,0.471790157,0.528209843,1,1,1,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide4.7,0.000237525,0.999762475,1,1,1,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide4.8,0.979439327,0.020560673,0,0,0,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide4.9,0.97448777,0.02551223,0,0,0,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide6.1,0.458581924,0.541418076,1,1,1,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide6.10,0.38988477,0.61011523,1,1,1,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide6.2,0.013780653,0.986219347,1,1,1,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide6.3,0.061738372,0.938261628,1,1,1,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide6.4,0.433565814,0.566434186,0,0,0,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide6.5,0.528716885,0.471283115,0,0,0,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide6.6,0.25875926,0.74124074,1,1,1,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide6.7,0.983459355,0.016540645,0,0,0,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide6.8,0.622265309,0.377734691,0,0,0,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide6.9,0.887364849,0.112635151,0,0,0,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide8.1,0.99842244,0.00157756,0,0,0,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide8.10,0.068143666,0.931856334,1,1,1,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide8.2,0.990140503,0.009859497,0,0,0,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide8.3,0.984520584,0.015479416,0,0,0,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide8.4,0.218937337,0.781062663,1,1,1,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide8.5,0.28797394,0.71202606,1,1,1,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide8.6,0.154598415,0.845401585,1,1,1,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide8.7,0.971557472,0.028442528,0,0,0,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide8.8,0.724922895,0.275077105,0,0,0,"GI Specialist 1",GI Specialist
+P8Test2_02022019,slide8.9,0.006206512,0.993793488,1,1,1,"GI Specialist 1",GI Specialist
+P9Test2_02032019,slide0.1,0.038189769,0.961810231,,,,"Trainee 2",Trainee
+P9Test2_02032019,slide0.2,0.824672371,0.175327629,,,,"Trainee 2",Trainee
+P9Test2_02032019,slide0.3,0.714382023,0.285617977,,,,"Trainee 2",Trainee
+P9Test2_02032019,slide0.4,0.859081224,0.140918776,,,,"Trainee 2",Trainee
+P9Test2_02032019,slide2.1,0.003138661,0.996861339,1,1,1,"Trainee 2",Trainee
+P9Test2_02032019,slide2.10,0.760699838,0.239300162,0,0,0,"Trainee 2",Trainee
+P9Test2_02032019,slide2.2,0.987075531,0.012924469,0,0,0,"Trainee 2",Trainee
+P9Test2_02032019,slide2.3,0.952938423,0.047061577,0,0,0,"Trainee 2",Trainee
+P9Test2_02032019,slide2.4,0.887382202,0.112617798,1,1,1,"Trainee 2",Trainee
+P9Test2_02032019,slide2.5,0.937554445,0.062445555,0,0,0,"Trainee 2",Trainee
+P9Test2_02032019,slide2.6,0.942025192,0.057974808,0,0,0,"Trainee 2",Trainee
+P9Test2_02032019,slide2.7,0.197714031,0.802285969,1,1,1,"Trainee 2",Trainee
+P9Test2_02032019,slide2.8,0.180043161,0.819956839,1,1,1,"Trainee 2",Trainee
+P9Test2_02032019,slide2.9,0.059015274,0.940984726,1,1,1,"Trainee 2",Trainee
+P9Test2_02032019,slide4.1,0.131220341,0.868779659,1,1,1,"Trainee 2",Trainee
+P9Test2_02032019,slide4.10,0.715916216,0.284083784,0,0,0,"Trainee 2",Trainee
+P9Test2_02032019,slide4.2,0.689681768,0.310318232,1,1,1,"Trainee 2",Trainee
+P9Test2_02032019,slide4.3,0.278850675,0.721149325,1,1,1,"Trainee 2",Trainee
+P9Test2_02032019,slide4.4,0.890577048,0.109422952,0,0,0,"Trainee 2",Trainee
+P9Test2_02032019,slide4.5,0.027621269,0.972378731,1,1,1,"Trainee 2",Trainee
+P9Test2_02032019,slide4.6,0.4917292,0.5082708,1,1,1,"Trainee 2",Trainee
+P9Test2_02032019,slide4.7,0.001913667,0.998086333,1,1,1,"Trainee 2",Trainee
+P9Test2_02032019,slide4.8,0.9740474,0.0259526,0,0,0,"Trainee 2",Trainee
+P9Test2_02032019,slide4.9,0.991623092,0.008376908,0,0,0,"Trainee 2",Trainee
+P9Test2_02032019,slide6.1,0.001411498,0.998588502,1,1,1,"Trainee 2",Trainee
+P9Test2_02032019,slide6.10,0.242666334,0.757333666,1,0,1,"Trainee 2",Trainee
+P9Test2_02032019,slide6.2,0.006110907,0.993889093,1,1,1,"Trainee 2",Trainee
+P9Test2_02032019,slide6.3,0.03957206,0.96042794,1,1,1,"Trainee 2",Trainee
+P9Test2_02032019,slide6.4,0.263402998,0.736597002,0,0,0,"Trainee 2",Trainee
+P9Test2_02032019,slide6.5,0.343252649,0.656747351,0,0,0,"Trainee 2",Trainee
+P9Test2_02032019,slide6.6,0.153015256,0.846984744,1,0,1,"Trainee 2",Trainee
+P9Test2_02032019,slide6.7,0.782436997,0.217563003,0,0,0,"Trainee 2",Trainee
+P9Test2_02032019,slide6.8,0.221369788,0.778630212,0,0,0,"Trainee 2",Trainee
+P9Test2_02032019,slide6.9,0.985673909,0.014326091,0,0,0,"Trainee 2",Trainee
+P9Test2_02032019,slide8.1,0.970319208,0.029680792,0,0,0,"Trainee 2",Trainee
+P9Test2_02032019,slide8.10,0.194990635,0.805009365,1,1,1,"Trainee 2",Trainee
+P9Test2_02032019,slide8.2,0.99549729,0.00450271,0,0,0,"Trainee 2",Trainee
+P9Test2_02032019,slide8.3,0.998737775,0.001262225,0,0,0,"Trainee 2",Trainee
+P9Test2_02032019,slide8.4,0.280053496,0.719946504,1,1,1,"Trainee 2",Trainee
+P9Test2_02032019,slide8.5,0.120343566,0.879656434,1,1,1,"Trainee 2",Trainee
+P9Test2_02032019,slide8.6,0.488694549,0.511305451,1,1,1,"Trainee 2",Trainee
+P9Test2_02032019,slide8.7,0.99048872,0.00951128,0,0,0,"Trainee 2",Trainee
+P9Test2_02032019,slide8.8,0.9554151,0.0445849,0,0,0,"Trainee 2",Trainee
+P9Test2_02032019,slide8.9,0.001628578,0.998371422,1,1,1,"Trainee 2",Trainee
+P1Test2_03082019,slide0.1,0.405006647,0.594993353,,,,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide0.2,0.696371734,0.303628266,,,,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide0.3,0.984358201,0.015641799,,,,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide2.1,1.19E-07,0.999999881,1,1,1,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide2.10,0.999970695,2.93E-05,0,0,0,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide2.2,0.99965717,0.00034283,0,0,0,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide2.3,0.995663842,0.004336158,0,0,0,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide2.4,0,1,1,1,1,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide2.5,0.999970216,2.98E-05,0,0,0,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide2.6,0.962248616,0.037751384,0,0,0,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide2.7,0.000425518,0.999574482,1,1,1,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide2.8,0.014128983,0.985871017,1,1,1,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide2.9,0.131762207,0.868237793,1,1,1,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide4.1,0.041866541,0.958133459,1,1,1,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide4.10,0.760161787,0.239838213,0,0,0,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide4.2,1.19E-07,0.999999881,1,1,1,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide4.3,0.933827981,0.066172019,1,1,1,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide4.4,0.992861981,0.007138019,0,0,0,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide4.5,0,1,1,1,1,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide4.6,0.265393257,0.734606743,1,0,1,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide4.7,5.96E-06,0.99999404,1,1,1,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide4.8,0.999977547,2.25E-05,0,0,0,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide4.9,0.959847983,0.040152017,0,0,0,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide6.1,0.000912786,0.999087214,1,1,1,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide6.10,0.598335773,0.401664227,1,1,1,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide6.2,0.00309366,0.99690634,1,1,1,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide6.3,0,1,1,1,1,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide6.4,0.938303657,0.061696343,0,0,0,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide6.5,0.424745306,0.575254694,1,1,0,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide6.6,0.035350025,0.964649975,1,1,1,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide6.7,0.96959687,0.03040313,0,0,0,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide6.8,0.673731016,0.326268984,0,0,0,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide6.9,0.997738439,0.002261561,0,1,0,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide8.1,0.79443654,0.20556346,0,1,0,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide8.10,0.000973821,0.999026179,1,1,1,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide8.2,0.992883068,0.007116932,0,0,0,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide8.3,0.990358624,0.009641376,0,0,0,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide8.4,0.280640841,0.719359159,1,1,1,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide8.5,5.52E-05,0.999944806,1,1,1,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide8.6,0.141307414,0.858692586,1,1,1,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide8.7,0.942063701,0.057936299,1,1,0,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide8.8,0.77023752,0.22976248,0,0,0,"None-GI Specialist 2",General Pathologist
+P1Test2_03082019,slide8.9,0,1,1,1,1,"None-GI Specialist 2",General Pathologist
+P10Test1_02152019,slide0.1,0.002359152,0.997640848,,,,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide0.2,0.015233755,0.984766245,,,,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide0.3,0.962039832,0.037960168,,,,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide1.1,0.906882271,0.093117729,0,0,0,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide1.10,0.998369301,0.001630699,0,0,0,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide1.2,0.217720509,0.782279491,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide1.3,0.999941435,5.86E-05,0,0,0,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide1.4,0.039704204,0.960295796,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide1.5,3.58E-07,0.999999642,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide1.6,0.997739018,0.002260982,0,0,0,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide1.7,0.036373794,0.963626206,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide1.8,0.538027257,0.461972743,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide1.9,0,1,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide3.1,1.19E-07,0.999999881,1,1,0,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide3.10,0.975597909,0.024402091,0,1,0,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide3.2,0.981436975,0.018563025,0,0,0,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide3.3,0.910394914,0.089605086,0,0,0,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide3.4,8.27E-05,0.999917269,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide3.5,0,1,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide3.6,0.001599491,0.998400509,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide3.7,0.962922242,0.037077758,0,1,0,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide3.8,0.897126347,0.102873653,0,1,0,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide3.9,0.987644696,0.012355304,0,1,0,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide5.1,0.965757072,0.034242928,0,0,0,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide5.10,0.975231333,0.024768667,0,0,0,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide5.2,0.063740492,0.936259508,0,0,0,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide5.3,0,1,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide5.4,4.29E-06,0.999995708,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide5.5,0.007042766,0.992957234,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide5.6,0.021353424,0.978646576,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide5.7,0.316873491,0.683126509,1,1,0,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide5.8,0.075411439,0.924588561,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide5.9,1.73E-05,0.999982715,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide7.1,0.139561117,0.860438883,1,0,0,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide7.10,0.525016814,0.474983186,0,0,0,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide7.2,2.86E-06,0.999997139,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide7.3,0.91021654,0.08978346,0,0,0,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide7.4,0,1,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide7.5,0,1,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide7.6,0.823125631,0.176874369,0,0,0,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide7.7,1.55E-06,0.99999845,1,1,1,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide7.8,0.989987165,0.010012835,0,0,0,"None-GI Specialist 1",General Pathologist
+P10Test1_02152019,slide7.9,0.044172943,0.955827057,1,1,0,"None-GI Specialist 1",General Pathologist
+P11Test2_02202019,slide0.1,0.000529706,0.999470294,,,,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide0.2,0.752992526,0.247007474,,,,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide0.3,0.705272466,0.294727534,,,,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide0.4,0.918339215,0.081660785,,,,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide2.1,0,1,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide2.10,0.949727729,0.050272271,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide2.2,0.999905227,9.48E-05,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide2.3,0.19809866,0.80190134,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide2.4,1.07E-06,0.999998927,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide2.5,0.999650867,0.000349133,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide2.6,0.938532431,0.061467569,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide2.7,0.424362719,0.575637281,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide2.8,0,1,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide2.9,0.484676361,0.515323639,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide4.1,0.369345605,0.630654395,0,1,1,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide4.10,0.980484977,0.019515023,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide4.2,4.77E-07,0.999999523,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide4.3,0.992275408,0.007724592,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide4.4,0.97549854,0.02450146,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide4.5,1.19E-07,0.999999881,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide4.6,0.49526,0.50474,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide4.7,0.000611663,0.999388337,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide4.8,0.999870888,0.000129112,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide4.9,0.226256669,0.773743331,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide6.1,2.15E-06,0.999997854,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide6.10,0.018330514,0.981669486,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide6.2,0.000137448,0.999862552,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide6.3,0,1,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide6.4,0.96478086,0.03521914,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide6.5,0.962344125,0.037655875,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide6.6,0.00164324,0.99835676,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide6.7,0.97387564,0.02612436,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide6.8,0.997370327,0.002629673,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide6.9,0.999104067,0.000895933,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide8.1,0.953988459,0.046011541,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide8.10,0,1,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide8.2,0.995915119,0.004084881,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide8.3,0.991817742,0.008182258,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide8.4,0.027479947,0.972520053,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide8.5,0.038509011,0.961490989,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide8.6,0.364643872,0.635356128,1,1,1,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide8.7,0.999248785,0.000751215,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide8.8,0.984065915,0.015934085,0,0,0,"None-GI Specialist 5",General Pathologist
+P11Test2_02202019,slide8.9,1.31E-06,0.999998689,1,1,1,"None-GI Specialist 5",General Pathologist
+P2Test2_02182019,slide0.4,0.934688769,0.065311231,,,,"Trainee 3",Trainee
+P2Test2_02182019,slide2.1,0,1,1,0,1,"Trainee 3",Trainee
+P2Test2_02182019,slide2.10,0.508001818,0.491998182,1,0,0,"Trainee 3",Trainee
+P2Test2_02182019,slide2.2,0.999974281,2.57E-05,0,0,0,"Trainee 3",Trainee
+P2Test2_02182019,slide2.3,0.998985686,0.001014314,0,0,0,"Trainee 3",Trainee
+P2Test2_02182019,slide2.4,0.000182629,0.999817371,1,1,1,"Trainee 3",Trainee
+P2Test2_02182019,slide2.5,0.99976842,0.00023158,0,0,0,"Trainee 3",Trainee
+P2Test2_02182019,slide2.6,0.998930354,0.001069646,0,0,0,"Trainee 3",Trainee
+P2Test2_02182019,slide2.7,0.41515854,0.58484146,1,1,1,"Trainee 3",Trainee
+P2Test2_02182019,slide2.8,0.001928866,0.998071134,1,0,1,"Trainee 3",Trainee
+P2Test2_02182019,slide2.9,0.053901911,0.946098089,1,1,1,"Trainee 3",Trainee
+P2Test2_02182019,slide4.1,0.33571434,0.66428566,1,1,1,"Trainee 3",Trainee
+P2Test2_02182019,slide4.10,0.246010721,0.753989279,1,0,0,"Trainee 3",Trainee
+P2Test2_02182019,slide4.2,0,1,1,1,1,"Trainee 3",Trainee
+P2Test2_02182019,slide4.3,0.883493433,0.116506567,0,0,1,"Trainee 3",Trainee
+P2Test2_02182019,slide4.4,0.975167494,0.024832506,0,0,0,"Trainee 3",Trainee
+P2Test2_02182019,slide4.5,1.19E-07,0.999999881,1,1,1,"Trainee 3",Trainee
+P2Test2_02182019,slide4.6,0.510034829,0.489965171,1,0,1,"Trainee 3",Trainee
+P2Test2_02182019,slide4.7,5.48E-06,0.999994516,1,1,1,"Trainee 3",Trainee
+P2Test2_02182019,slide4.8,0.999995138,4.86E-06,0,0,0,"Trainee 3",Trainee
+P2Test2_02182019,slide4.9,0.965126835,0.034873165,0,0,0,"Trainee 3",Trainee
+P2Test2_02182019,slide6.1,0.000249326,0.999750674,1,1,1,"Trainee 3",Trainee
+P2Test2_02182019,slide6.10,0.307283878,0.692716122,1,0,1,"Trainee 3",Trainee
+P2Test2_02182019,slide6.2,0.003040552,0.996959448,1,1,1,"Trainee 3",Trainee
+P2Test2_02182019,slide6.3,2.38E-07,0.999999762,1,1,1,"Trainee 3",Trainee
+P2Test2_02182019,slide6.4,0.996876264,0.003123736,0,1,0,"Trainee 3",Trainee
+P2Test2_02182019,slide6.5,0.36151883,0.63848117,1,0,0,"Trainee 3",Trainee
+P2Test2_02182019,slide6.6,0.129307926,0.870692074,1,0,1,"Trainee 3",Trainee
+P2Test2_02182019,slide6.7,0.651780157,0.348219843,0,0,0,"Trainee 3",Trainee
+P2Test2_02182019,slide6.8,0.784684613,0.215315387,0,0,0,"Trainee 3",Trainee
+P2Test2_02182019,slide6.9,0.875846982,0.124153018,0,0,0,"Trainee 3",Trainee
+P2Test2_02182019,slide8.1,0.984414772,0.015585228,0,1,0,"Trainee 3",Trainee
+P2Test2_02182019,slide8.10,0.018959612,0.981040388,1,1,1,"Trainee 3",Trainee
+P2Test2_02182019,slide8.2,0.984977501,0.015022499,0,0,0,"Trainee 3",Trainee
+P2Test2_02182019,slide8.3,0.97100733,0.02899267,0,0,0,"Trainee 3",Trainee
+P2Test2_02182019,slide8.4,0.047495067,0.952504933,1,1,1,"Trainee 3",Trainee
+P2Test2_02182019,slide8.5,0.123052657,0.876947343,1,1,1,"Trainee 3",Trainee
+P2Test2_02182019,slide8.6,0.615637511,0.384362489,1,1,1,"Trainee 3",Trainee
+P2Test2_02182019,slide8.7,0.416875243,0.583124757,1,1,0,"Trainee 3",Trainee
+P2Test2_02182019,slide8.8,0.805448964,0.194551036,0,0,0,"Trainee 3",Trainee
+P2Test2_02182019,slide8.9,0,1,1,1,1,"Trainee 3",Trainee
+P3Test1_02212019,slide1.1,0.956610497,0.043389503,0,1,0,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide1.10,0.885912515,0.114087485,0,0,0,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide1.2,0.000201881,0.999798119,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide1.3,0.999766114,0.000233886,0,0,0,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide1.4,0.468127243,0.531872757,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide1.5,0,1,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide1.6,0.998598988,0.001401012,0,0,0,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide1.7,0.43235819,0.56764181,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide1.8,0.009101272,0.990898728,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide1.9,0,1,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide3.1,4.83E-05,0.99995172,1,0,0,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide3.10,0.986468132,0.013531868,0,1,0,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide3.2,0.410940349,0.589059651,0,0,0,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide3.3,0.463729978,0.536270022,0,0,0,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide3.4,0.015930355,0.984069645,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide3.5,0,1,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide3.6,0.005874991,0.994125009,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide3.7,0.326242283,0.673757717,1,0,0,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide3.8,0.981747089,0.018252911,0,0,0,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide3.9,0.998651834,0.001348166,0,0,0,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide5.1,0.988279357,0.011720643,0,0,0,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide5.10,0.980369724,0.019630276,0,0,0,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide5.2,0.817878351,0.182121649,0,0,0,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide5.3,3.81E-06,0.999996185,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide5.4,2.62E-06,0.999997377,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide5.5,0.011597693,0.988402307,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide5.6,0.021205902,0.978794098,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide5.7,0.994542771,0.005457229,0,0,0,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide5.8,0.00172317,0.99827683,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide5.9,9.54E-07,0.999999046,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide7.1,0.085924625,0.914075375,1,1,0,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide7.10,0.004933506,0.995066494,1,0,0,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide7.2,0.0018031,0.9981969,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide7.3,0.944978129,0.055021871,0,0,0,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide7.4,1.19E-07,0.999999881,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide7.5,0,1,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide7.6,0.895361066,0.104638934,0,0,0,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide7.7,0,1,1,1,1,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide7.8,0.986639227,0.013360773,0,0,0,"None-GI Specialist 3",General Pathologist
+P3Test1_02212019,slide7.9,0.022636533,0.977363467,1,0,0,"None-GI Specialist 3",General Pathologist
+P4Test1_02242019,slide0.1,0.183410108,0.816589892,,,,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide0.2,0.001228631,0.998771369,,,,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide0.3,0.876992434,0.123007566,,,,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide0.4,0.984038129,0.015961871,,,,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide1.1,0.986162119,0.013837881,0,0,0,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide1.10,0.977467438,0.022532562,0,0,0,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide1.2,0.955082595,0.044917405,1,1,1,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide1.3,0.985677483,0.014322517,0,0,0,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide1.4,0.005287647,0.994712353,1,1,1,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide1.5,2.90E-05,0.999971032,1,1,1,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide1.6,0.997163194,0.002836806,0,0,0,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide1.7,0.505068839,0.494931161,1,1,1,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide1.8,0.000550449,0.999449551,1,1,1,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide1.9,0,1,1,1,1,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide3.1,0.00032115,0.99967885,1,1,0,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide3.10,0.887301855,0.112698145,0,1,0,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide3.2,0.850430802,0.149569198,0,0,0,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide3.3,0.725206017,0.274793983,0,0,0,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide3.4,0.670611888,0.329388112,1,1,1,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide3.5,0,1,1,1,1,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide3.6,0.003100514,0.996899486,1,1,1,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide3.7,0.999967061,3.29E-05,0,0,0,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide3.8,0.992321852,0.007678148,0,0,0,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide3.9,0.99628377,0.00371623,0,0,0,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide5.1,0.990639238,0.009360762,0,0,0,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide5.10,0.99924883,0.00075117,0,0,0,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide5.2,0.679906964,0.320093036,0,0,0,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide5.3,1.53E-05,0.999984741,1,1,1,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide5.4,0.000164866,0.999835134,1,1,1,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide5.5,0.017473578,0.982526422,1,1,1,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide5.6,0.006005824,0.993994176,1,1,1,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide5.7,0.778422073,0.221577927,0,0,0,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide5.8,0.000208199,0.999791801,1,1,1,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide5.9,1.37E-05,0.999986291,1,1,1,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide7.1,0.166576445,0.833423555,1,1,0,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide7.10,0.00486815,0.99513185,1,1,0,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide7.2,1.67E-06,0.999998331,1,1,1,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide7.3,0.967044931,0.032955069,0,0,0,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide7.4,0.000663817,0.999336183,1,1,1,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide7.5,0,1,1,1,1,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide7.6,0.804810435,0.195189565,0,0,0,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide7.7,4.77E-06,0.999995232,1,1,1,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide7.8,0.996103482,0.003896518,0,0,0,"GI Specialist 3",GI Specialist
+P4Test1_02242019,slide7.9,0.99267406,0.00732594,0,0,0,"GI Specialist 3",GI Specialist
+P5Test2_02212019,slide0.1,0.051493466,0.948506534,,,,"Trainee 1",Trainee
+P5Test2_02212019,slide0.3,0.770872593,0.229127407,,,,"Trainee 1",Trainee
+P5Test2_02212019,slide2.1,0.000412613,0.999587387,1,1,1,"Trainee 1",Trainee
+P5Test2_02212019,slide2.10,0.998698113,0.001301887,0,0,0,"Trainee 1",Trainee
+P5Test2_02212019,slide2.2,0.999998593,1.41E-06,0,0,0,"Trainee 1",Trainee
+P5Test2_02212019,slide2.3,0.980475929,0.019524071,0,0,0,"Trainee 1",Trainee
+P5Test2_02212019,slide2.4,0.000120223,0.999879777,1,0,1,"Trainee 1",Trainee
+P5Test2_02212019,slide2.5,0.995893843,0.004106157,0,0,0,"Trainee 1",Trainee
+P5Test2_02212019,slide2.6,0.991333643,0.008666357,0,0,0,"Trainee 1",Trainee
+P5Test2_02212019,slide2.7,0.442163087,0.557836913,1,0,1,"Trainee 1",Trainee
+P5Test2_02212019,slide2.8,0.003775597,0.996224403,1,1,1,"Trainee 1",Trainee
+P5Test2_02212019,slide2.9,0.068071753,0.931928247,1,1,1,"Trainee 1",Trainee
+P5Test2_02212019,slide4.1,4.77E-07,0.999999523,1,1,1,"Trainee 1",Trainee
+P5Test2_02212019,slide4.10,0.544256806,0.455743194,0,0,0,"Trainee 1",Trainee
+P5Test2_02212019,slide4.2,3.34E-06,0.999996662,1,1,1,"Trainee 1",Trainee
+P5Test2_02212019,slide4.3,0.876686086,0.123313914,1,0,1,"Trainee 1",Trainee
+P5Test2_02212019,slide4.4,0.450268656,0.549731344,0,0,0,"Trainee 1",Trainee
+P5Test2_02212019,slide4.5,4.70E-05,0.999953032,1,1,1,"Trainee 1",Trainee
+P5Test2_02212019,slide4.6,0.55695504,0.44304496,1,1,1,"Trainee 1",Trainee
+P5Test2_02212019,slide4.7,1.96E-05,0.99998045,1,1,1,"Trainee 1",Trainee
+P5Test2_02212019,slide4.8,0.999998609,1.39E-06,0,0,0,"Trainee 1",Trainee
+P5Test2_02212019,slide4.9,0.716447298,0.283552702,0,0,0,"Trainee 1",Trainee
+P5Test2_02212019,slide6.1,2.38E-07,0.999999762,1,1,1,"Trainee 1",Trainee
+P5Test2_02212019,slide6.10,0.482059212,0.517940788,1,0,1,"Trainee 1",Trainee
+P5Test2_02212019,slide6.2,6.32E-05,0.999936819,1,1,1,"Trainee 1",Trainee
+P5Test2_02212019,slide6.3,2.98E-07,0.999999702,1,1,1,"Trainee 1",Trainee
+P5Test2_02212019,slide6.4,0.993690705,0.006309295,0,0,0,"Trainee 1",Trainee
+P5Test2_02212019,slide6.5,0.777433306,0.222566694,0,0,0,"Trainee 1",Trainee
+P5Test2_02212019,slide6.6,0.000594854,0.999405146,1,1,1,"Trainee 1",Trainee
+P5Test2_02212019,slide6.7,0.461009979,0.538990021,0,0,0,"Trainee 1",Trainee
+P5Test2_02212019,slide6.8,0.994735868,0.005264132,0,0,0,"Trainee 1",Trainee
+P5Test2_02212019,slide6.9,0.999326483,0.000673517,0,0,0,"Trainee 1",Trainee
+P5Test2_02212019,slide8.1,0.979376603,0.020623397,0,0,0,"Trainee 1",Trainee
+P5Test2_02212019,slide8.10,3.58E-07,0.999999642,1,1,1,"Trainee 1",Trainee
+P5Test2_02212019,slide8.2,0.978185998,0.021814002,0,0,0,"Trainee 1",Trainee
+P5Test2_02212019,slide8.3,0.999943526,5.65E-05,0,0,0,"Trainee 1",Trainee
+P5Test2_02212019,slide8.4,0.026745975,0.973254025,1,1,1,"Trainee 1",Trainee
+P5Test2_02212019,slide8.5,0.181695372,0.818304628,1,1,1,"Trainee 1",Trainee
+P5Test2_02212019,slide8.6,0.214941323,0.785058677,1,1,1,"Trainee 1",Trainee
+P5Test2_02212019,slide8.7,0.727985799,0.272014201,0,0,0,"Trainee 1",Trainee
+P5Test2_02212019,slide8.8,0.918753117,0.081246883,0,0,0,"Trainee 1",Trainee
+P5Test2_02212019,slide8.9,0.351633132,0.648366868,1,1,1,"Trainee 1",Trainee
+P6Test2_02262019,slide0.1,0.616865136,0.383134864,,,,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide0.2,0.446904788,0.553095212,,,,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide0.3,0.059712231,0.940287769,,,,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide0.4,0.976925183,0.023074817,,,,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide2.1,0,1,1,0,1,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide2.10,0.997930805,0.002069195,0,0,0,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide2.2,0.952320543,0.047679457,0,0,0,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide2.3,0.670195804,0.329804196,0,0,0,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide2.4,0.000351667,0.999648333,1,1,1,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide2.5,0.892426153,0.107573847,0,0,0,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide2.6,0.992993528,0.007006472,0,0,0,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide2.7,0.229643861,0.770356139,1,0,1,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide2.8,4.94E-05,0.999950647,1,0,1,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide2.9,0.005188545,0.994811455,1,1,1,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide4.1,0.030234317,0.969765683,1,1,1,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide4.10,0.58276897,0.41723103,0,0,0,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide4.2,0.000895143,0.999104857,1,0,1,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide4.3,0.990438875,0.009561125,0,0,1,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide4.4,0.858498241,0.141501759,0,0,0,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide4.5,7.15E-07,0.999999285,1,1,1,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide4.6,0.144016882,0.855983118,1,0,1,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide4.7,2.26E-05,0.99997743,1,1,1,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide4.8,0.999852583,0.000147417,0,0,0,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide4.9,0.99895378,0.00104622,0,0,0,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide6.1,0.000405848,0.999594152,1,0,1,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide6.10,0.000219256,0.999780744,1,0,1,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide6.2,9.80E-05,0.99990203,1,1,1,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide6.3,1.07E-06,0.999998927,1,1,1,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide6.4,0.990867289,0.009132711,0,0,0,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide6.5,0.736137494,0.263862506,0,0,0,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide6.6,0.000624259,0.999375741,1,1,1,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide6.7,0.011888901,0.988111099,1,0,0,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide6.8,0.746059363,0.253940637,0,0,0,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide6.9,0.971223288,0.028776712,0,0,0,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide8.1,0.884399568,0.115600432,0,0,0,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide8.10,4.29E-06,0.999995708,1,1,1,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide8.2,0.979487813,0.020512187,0,0,0,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide8.3,0.999873839,0.000126161,0,0,0,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide8.4,0.353920688,0.646079312,1,1,1,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide8.5,0.007487257,0.992512743,1,1,1,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide8.6,0.153017044,0.846982956,1,0,1,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide8.7,0.998021127,0.001978873,0,0,0,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide8.8,0.997441276,0.002558724,0,0,0,"None-GI Specialist 4",General Pathologist
+P6Test2_02262019,slide8.9,8.58E-05,0.999914229,1,1,1,"None-GI Specialist 4",General Pathologist
+P7Test2_02252019,slide0.1,0.035141408,0.964858592,,,,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide0.2,0.244642556,0.755357444,,,,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide2.1,0,1,1,1,1,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide2.10,0.999915464,8.45E-05,0,0,0,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide2.2,0.9999884,1.16E-05,0,0,0,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide2.3,0.999644572,0.000355428,0,0,0,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide2.4,2.19E-05,0.999978065,1,1,1,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide2.5,0.99953625,0.00046375,0,0,0,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide2.6,0.998225318,0.001774682,0,0,0,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide2.7,0.493079239,0.506920761,1,1,1,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide2.8,0,1,1,1,1,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide2.9,0.000130296,0.999869704,1,1,1,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide4.1,3.10E-06,0.999996901,1,1,1,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide4.10,0.987744019,0.012255981,0,0,0,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide4.2,0,1,1,1,1,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide4.3,0.530575385,0.469424615,1,1,1,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide4.4,0.99690987,0.00309013,0,0,0,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide4.5,0,1,1,1,1,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide4.6,0.342940092,0.657059908,1,1,1,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide4.7,0,1,1,1,1,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide4.8,0.999971555,2.84E-05,0,0,0,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide4.9,0.982109176,0.017890824,0,0,0,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide6.1,4.05E-05,0.999959469,1,1,1,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide6.10,0.044926107,0.955073893,1,1,1,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide6.2,0.000118852,0.999881148,1,1,1,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide6.3,0,1,1,1,1,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide6.4,0.991466888,0.008533112,0,0,0,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide6.5,0.631501138,0.368498862,0,1,0,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide6.6,6.02E-05,0.999939799,1,1,1,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide6.7,0.986567,0.013433,0,1,0,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide6.8,0.987512324,0.012487676,0,1,0,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide6.9,0.9568257,0.0431743,0,0,0,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide8.1,0.929094292,0.070905708,0,0,0,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide8.10,1.19E-06,0.999998808,1,1,1,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide8.2,0.952328563,0.047671437,0,0,0,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide8.3,0.999903404,9.66E-05,0,0,0,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide8.4,0.167576671,0.832423329,1,1,1,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide8.5,0.000106573,0.999893427,1,1,1,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide8.6,0.45419848,0.54580152,1,1,1,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide8.7,0.99999078,9.22E-06,0,0,0,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide8.8,0.884820677,0.115179323,0,0,0,"GI Specialist 2",GI Specialist
+P7Test2_02252019,slide8.9,3.93E-06,0.999996066,1,1,1,"GI Specialist 2",GI Specialist
+P8Test1_02282019,slide0.1,0.040652871,0.959347129,,,,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide1.1,0.719490349,0.280509651,0,0,0,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide1.10,0.6202721,0.3797279,0,0,0,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide1.2,0.012726307,0.987273693,1,1,1,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide1.3,0.984594735,0.015405265,0,0,0,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide1.4,0.547577113,0.452422887,1,1,1,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide1.5,1.69E-05,0.999983072,1,1,1,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide1.6,0.975793764,0.024206236,0,0,0,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide1.7,0.902396128,0.097603872,1,1,1,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide1.8,0.143828988,0.856171012,1,1,1,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide1.9,0,1,1,1,1,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide3.1,3.58E-07,0.999999642,1,1,0,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide3.10,0.838671848,0.161328152,0,0,0,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide3.2,0.90333204,0.09666796,0,0,0,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide3.3,0.991458933,0.008541067,0,0,0,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide3.4,0.000165582,0.999834418,1,1,1,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide3.5,1.19E-07,0.999999881,1,1,1,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide3.6,0.31841214,0.68158786,1,1,1,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide3.7,0.994506728,0.005493272,0,0,0,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide3.8,0.996008032,0.003991968,0,0,0,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide3.9,0.881238036,0.118761964,0,0,0,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide5.1,0.976229168,0.023770832,0,0,0,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide5.10,0.998311736,0.001688264,0,0,0,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide5.2,0.573024392,0.426975608,0,0,0,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide5.3,1.07E-06,0.999998927,1,1,1,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide5.4,2.10E-05,0.999979019,1,1,1,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide5.5,0.000162363,0.999837637,1,1,1,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide5.6,0.001901805,0.998098195,1,1,1,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide5.7,0.570898682,0.429101318,0,0,0,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide5.8,7.90E-05,0.999920964,1,1,1,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide5.9,1.30E-05,0.999987006,1,1,1,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide7.1,0.988093054,0.011906946,0,0,0,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide7.10,0.408004142,0.591995858,0,0,0,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide7.2,0.056512594,0.943487406,1,1,1,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide7.3,0.962771218,0.037228782,0,0,0,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide7.4,0,1,1,1,1,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide7.5,2.38E-07,0.999999762,1,1,1,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide7.6,0.998451251,0.001548749,0,0,0,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide7.7,0.081154426,0.918845574,0,1,1,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide7.8,0.991429434,0.008570566,0,0,0,"GI Specialist 1",GI Specialist
+P8Test1_02282019,slide7.9,0.042104304,0.957895696,0,0,0,"GI Specialist 1",GI Specialist
+P9Test1_02242019,slide0.1,0.124775827,0.875224173,,,,"Trainee 2",Trainee
+P9Test1_02242019,slide0.2,0.542636305,0.457363695,,,,"Trainee 2",Trainee
+P9Test1_02242019,slide0.3,0.435892522,0.564107478,,,,"Trainee 2",Trainee
+P9Test1_02242019,slide0.4,0.985309064,0.014690936,,,,"Trainee 2",Trainee
+P9Test1_02242019,slide1.1,0.720936328,0.279063672,0,0,0,"Trainee 2",Trainee
+P9Test1_02242019,slide1.10,0.629022153,0.370977847,0,0,0,"Trainee 2",Trainee
+P9Test1_02242019,slide1.2,0.020898342,0.979101658,1,1,1,"Trainee 2",Trainee
+P9Test1_02242019,slide1.3,0.99868966,0.00131034,0,0,0,"Trainee 2",Trainee
+P9Test1_02242019,slide1.4,0.314153731,0.685846269,1,1,1,"Trainee 2",Trainee
+P9Test1_02242019,slide1.5,9.66E-05,0.99990344,1,1,1,"Trainee 2",Trainee
+P9Test1_02242019,slide1.6,0.982452793,0.017547207,0,0,0,"Trainee 2",Trainee
+P9Test1_02242019,slide1.7,0.008437812,0.991562188,1,1,1,"Trainee 2",Trainee
+P9Test1_02242019,slide1.8,0.275177419,0.724822581,1,1,1,"Trainee 2",Trainee
+P9Test1_02242019,slide1.9,0,1,1,1,1,"Trainee 2",Trainee
+P9Test1_02242019,slide3.1,9.57E-05,0.999904275,1,1,0,"Trainee 2",Trainee
+P9Test1_02242019,slide3.10,0.971856084,0.028143916,0,0,0,"Trainee 2",Trainee
+P9Test1_02242019,slide3.2,0.999984196,1.58E-05,0,0,0,"Trainee 2",Trainee
+P9Test1_02242019,slide3.3,0.912436463,0.087563537,0,0,0,"Trainee 2",Trainee
+P9Test1_02242019,slide3.4,0.00015831,0.99984169,1,1,1,"Trainee 2",Trainee
+P9Test1_02242019,slide3.5,0,1,1,1,1,"Trainee 2",Trainee
+P9Test1_02242019,slide3.6,0.007157922,0.992842078,1,1,1,"Trainee 2",Trainee
+P9Test1_02242019,slide3.7,0.977579933,0.022420067,0,0,0,"Trainee 2",Trainee
+P9Test1_02242019,slide3.8,0.907000951,0.092999049,0,0,0,"Trainee 2",Trainee
+P9Test1_02242019,slide3.9,0.965841319,0.034158681,0,0,0,"Trainee 2",Trainee
+P9Test1_02242019,slide5.1,0.861747235,0.138252765,0,0,0,"Trainee 2",Trainee
+P9Test1_02242019,slide5.10,0.983382411,0.016617589,0,0,0,"Trainee 2",Trainee
+P9Test1_02242019,slide5.2,0.970769536,0.029230464,0,0,0,"Trainee 2",Trainee
+P9Test1_02242019,slide5.3,0,1,1,1,1,"Trainee 2",Trainee
+P9Test1_02242019,slide5.4,7.03E-06,0.999992967,1,1,1,"Trainee 2",Trainee
+P9Test1_02242019,slide5.5,0.00290513,0.99709487,1,1,1,"Trainee 2",Trainee
+P9Test1_02242019,slide5.6,0.003000855,0.996999145,1,1,1,"Trainee 2",Trainee
+P9Test1_02242019,slide5.7,0.982412335,0.017587665,0,0,0,"Trainee 2",Trainee
+P9Test1_02242019,slide5.8,0.043866366,0.956133634,1,1,1,"Trainee 2",Trainee
+P9Test1_02242019,slide5.9,1.72E-05,0.999982834,1,1,1,"Trainee 2",Trainee
+P9Test1_02242019,slide7.1,0.992688381,0.007311619,0,1,0,"Trainee 2",Trainee
+P9Test1_02242019,slide7.10,0.3363958,0.6636042,0,0,0,"Trainee 2",Trainee
+P9Test1_02242019,slide7.2,5.36E-06,0.999994636,1,1,1,"Trainee 2",Trainee
+P9Test1_02242019,slide7.3,0.915576689,0.084423311,0,0,0,"Trainee 2",Trainee
+P9Test1_02242019,slide7.4,2.38E-07,0.999999762,1,1,1,"Trainee 2",Trainee
+P9Test1_02242019,slide7.5,0,1,1,1,1,"Trainee 2",Trainee
+P9Test1_02242019,slide7.6,0.973553102,0.026446898,0,0,0,"Trainee 2",Trainee
+P9Test1_02242019,slide7.7,0,1,1,1,1,"Trainee 2",Trainee
+P9Test1_02242019,slide7.8,0.895266585,0.104733415,0,0,0,"Trainee 2",Trainee
+P9Test1_02242019,slide7.9,0.334533036,0.665466964,1,1,0,"Trainee 2",Trainee

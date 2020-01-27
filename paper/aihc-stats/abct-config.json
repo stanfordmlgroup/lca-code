@@ -1,0 +1,31 @@
+{
+    "eval_probabilities_paths": {
+        "oversampled=0.7": ["/deep/group/abct/experiments/apr18_oversampled=0.7_1/results/test/probs.npy",
+                            "/deep/group/abct/experiments/apr18_oversampled=0.7_2/results/test/probs.npy",
+                            "/deep/group/abct/experiments/apr18_oversampled=0.7_3/results/test/probs.npy"],
+        "not_pretrained": ["/deep/group/abct/experiments/apr18_not_pretrained1/results/test/probs.npy",
+                           "/deep/group/abct/experiments/apr18_not_pretrained2/results/test/probs.npy",
+                           "/deep/group/abct/experiments/apr18_not_pretrained3/results/test/probs.npy"]
+    },
+    "eval_groundtruth_path": "/deep/group/abct/data/data_Apr18/test_labels.npy",
+    "tune_probabilities_paths": {
+        "oversampled=0.7": ["/deep/group/abct/experiments/apr18_oversampled=0.7_1/results/val/probs.npy",
+                            "/deep/group/abct/experiments/apr18_oversampled=0.7_2/results/val/probs.npy",
+                            "/deep/group/abct/experiments/apr18_oversampled=0.7_3/results/val/probs.npy"],
+        "not_pretrained": ["/deep/group/abct/experiments/apr18_not_pretrained1/results/val/probs.npy",
+                           "/deep/group/abct/experiments/apr18_not_pretrained2/results/val/probs.npy",
+                           "/deep/group/abct/experiments/apr18_not_pretrained3/results/val/probs.npy"]
+    },
+    "tune_groundtruth_path": "/deep/group/abct/data/data_Apr18/val_labels.npy",
+    "tune_threshold": true,
+    "compare_probabilities_paths": {
+        "default": ["/deep/group/abct/experiments/apr18_oversampled=0.7_1/results/test/probs.npy",
+                    "/deep/group/abct/experiments/apr18_oversampled=0.7_2/results/test/probs.npy",
+                    "/deep/group/abct/experiments/apr18_oversampled=0.7_3/results/test/probs.npy"],
+        "not_pretrained": ["/deep/group/abct/experiments/apr18_not_pretrained1/results/test/probs.npy",
+                           "/deep/group/abct/experiments/apr18_not_pretrained2/results/test/probs.npy",
+                           "/deep/group/abct/experiments/apr18_not_pretrained3/results/test/probs.npy"]
+    },
+    "compare_groundtruth_path": "/deep/group/abct/data/data_Apr18/test_labels.npy",
+    "operating_point_value": 0.95
+}
