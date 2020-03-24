@@ -1,3 +1,8 @@
+## Paper Statistics Scripts
+Scripts used for data processing and figure generation for our [manuscript](https://doi.org/10.1038/s41746-020-0232-8) is available [here](https://github.com/stanfordmlgroup/lca-code/tree/master/paper).
+
+
+
 # LiverCancerAssistant Deep Learning Model 
 
 ### Usage
